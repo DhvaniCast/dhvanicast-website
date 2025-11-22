@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #2ecc71;
+  --primary-light: #4cd137;
+  --primary-dark: #27ae60;
+  --dark: #1e1e1e;
+  --darker: #121212;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: theme('colors.darker');
+  color: white;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: theme('colors.dark');
+}
+
+::-webkit-scrollbar-thumb {
+  background: theme('colors.primary-dark');
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: theme('colors.primary');
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-white font-medium py-2 px-4 rounded-md transition-all duration-300;
+  }
+  
+  .btn-primary:hover {
+    @apply bg-primary-light;
+  }
+  
+  .btn-outline {
+    @apply border border-primary text-primary font-medium py-2 px-4 rounded-md transition-all duration-300;
+  }
+  
+  .btn-outline:hover {
+    @apply bg-primary text-white;
+  }
+  
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 10s linear infinite;
+}
