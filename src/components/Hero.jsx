@@ -69,7 +69,7 @@ const Hero = () => {
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-72 h-72 md:w-96 md:h-96 border-2 border-primary/70 rounded-full pointer-events-none"></div>
                 
                 {/* Green dot */}
-                <div className="absolute top-1/3 right-1/3 w-8 h-8 bg-primary rounded-full shadow-lg shadow-primary/50 animate-pulse"></div>
+                {/* <div className="absolute top-1/3 right-1/3 w-8 h-8 bg-primary rounded-full shadow-lg shadow-primary/50 animate-pulse"></div> */}
               </div>
             </div>
           </div>
