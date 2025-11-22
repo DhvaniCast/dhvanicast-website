@@ -24,6 +24,8 @@ const DownloadPopup = ({ isOpen, onClose }) => {
         </div>
         
         <div className="space-y-6">
+
+          {/* ANDROID APK */}
           <div className="bg-darker rounded-lg p-4 flex items-center space-x-4 hover:bg-darker/80 transition-colors">
             <div className="bg-primary/20 p-3 rounded-full">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary">
@@ -31,13 +33,22 @@ const DownloadPopup = ({ isOpen, onClose }) => {
                 <polygon points="12 15 17 21 7 21 12 15" />
               </svg>
             </div>
+
             <div className="flex-1">
               <h3 className="font-medium">Android APK</h3>
               <p className="text-sm text-gray-400">Version 1.2.0</p>
             </div>
-            <button className="btn-primary">Download</button>
+
+            <a 
+              href="/app-release.apk"
+              className="btn-primary"
+              download
+            >
+              Download
+            </a>
           </div>
-          
+
+          {/* iOS APP */}
           <div className="bg-darker rounded-lg p-4 flex items-center space-x-4 hover:bg-darker/80 transition-colors">
             <div className="bg-primary/20 p-3 rounded-full">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary">
@@ -45,15 +56,20 @@ const DownloadPopup = ({ isOpen, onClose }) => {
                 <path d="M10 2c1 .5 2 2 2 5" />
               </svg>
             </div>
+
             <div className="flex-1">
               <h3 className="font-medium">iOS App</h3>
               <p className="text-sm text-gray-400">Version 1.2.0</p>
             </div>
+
             <button className="btn-primary">Download</button>
           </div>
           
           <p className="text-sm text-gray-400 text-center mt-4">
-            By downloading, you agree to our <Link to="/terms-of-use" className="text-primary hover:underline" onClick={onClose}>Terms of Service</Link> and <Link to="/privacy-policy" className="text-primary hover:underline" onClick={onClose}>Privacy Policy</Link>
+            By downloading, you agree to our 
+            <Link to="/terms-of-use" className="text-primary hover:underline" onClick={onClose}> Terms of Service </Link>
+            and 
+            <Link to="/privacy-policy" className="text-primary hover:underline" onClick={onClose}> Privacy Policy</Link>
           </p>
         </div>
       </motion.div>
