@@ -42,7 +42,7 @@ const DownloadPopup = ({ isOpen, onClose }) => {
             <a 
               href="/app-release.apk"
               className="btn-primary"
-              download
+              download="app-release.apk"
             >
               Download
             </a>
@@ -65,7 +65,7 @@ const DownloadPopup = ({ isOpen, onClose }) => {
             <a 
               href="/Runner.app.ipa"
               className="btn-primary"
-              download
+              download="Runner.app.ipa"
             >
               Download
             </a>
