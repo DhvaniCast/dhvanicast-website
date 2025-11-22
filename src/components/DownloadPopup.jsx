@@ -40,7 +40,7 @@ const DownloadPopup = ({ isOpen, onClose }) => {
             </div>
 
             <a 
-              href="/app-release.apk"
+              href="https://github.com/DhvaniCast/harborleaf_radio_app/releases/latest/download/app-release.apk"
               className="btn-primary"
               download="app-release.apk"
             >
@@ -63,7 +63,7 @@ const DownloadPopup = ({ isOpen, onClose }) => {
             </div>
 
             <a 
-              href="/Runner.app.ipa"
+              href="https://github.com/DhvaniCast/harborleaf_radio_app/releases/latest/download/Runner.app.ipa"
               className="btn-primary"
               download="Runner.app.ipa"
             >
