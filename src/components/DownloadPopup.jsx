@@ -62,7 +62,13 @@ const DownloadPopup = ({ isOpen, onClose }) => {
               <p className="text-sm text-gray-400">Version 1.2.0</p>
             </div>
 
-            <button className="btn-primary">Download</button>
+            <a 
+              href="/Runner.app.ipa"
+              className="btn-primary"
+              download
+            >
+              Download
+            </a>
           </div>
           
           <p className="text-sm text-gray-400 text-center mt-4">
