@@ -1,0 +1,12 @@
+# Ignore node_modules but keep public folder files
+node_modules/
+.git/
+.gitignore
+*.log
+
+# Keep dist folder if it exists (for debugging)
+# dist/
+
+# Keep public folder and its contents
+!public/
+!public/**
