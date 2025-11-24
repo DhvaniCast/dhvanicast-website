@@ -40,15 +40,15 @@ const DownloadPopup = ({ isOpen, onClose }) => {
             </div>
 
             <a 
-              href="/apk/app-release.apk"
+              href="https://storage.googleapis.com/dhvani-apk-files/app-release.apk"
               className="btn-primary"
-              download
+              download="app-release.apk"
             >
               Download
             </a>
           </div>
 
-          {/* iOS IPA */}
+          {/* iOS APP */}
           <div className="bg-darker rounded-lg p-4 flex items-center space-x-4 hover:bg-darker/80 transition-colors">
             <div className="bg-primary/20 p-3 rounded-full">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary">
@@ -58,14 +58,14 @@ const DownloadPopup = ({ isOpen, onClose }) => {
             </div>
 
             <div className="flex-1">
-              <h3 className="font-medium">iOS App (IPA)</h3>
+              <h3 className="font-medium">iOS App</h3>
               <p className="text-sm text-gray-400">Version 1.2.0</p>
             </div>
 
             <a 
-              href="/ipa/Runner.app.ipa"
+              href="https://storage.googleapis.com/dhvani-apk-files/Runner.app.ipa"
               className="btn-primary"
-              download
+              download="Runner.app.ipa"
             >
               Download
             </a>
