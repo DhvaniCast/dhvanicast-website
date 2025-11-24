@@ -20,23 +20,23 @@ const RotatingEarth = () => {
 
   return (
     <group>
-      {/* Ocean - Deep blue like NASA */}
+      {/* Ocean - Vibrant bright blue */}
       <Sphere ref={earthRef} args={[1.2, 64, 64]}>
         <meshStandardMaterial
-          color="#1a5490"
-          emissive="#0d2a47"
-          emissiveIntensity={0.1}
-          roughness={0.5}
-          metalness={0.1}
+          color="#0077be"
+          emissive="#004d99"
+          emissiveIntensity={0.25}
+          roughness={0.4}
+          metalness={0.2}
         />
       </Sphere>
 
-      {/* Land masses - NASA realistic green-brown */}
+      {/* Land masses - Bright green */}
       <Sphere args={[1.205, 64, 64]}>
         <meshStandardMaterial
-          color="#4a7c3b"
-          emissive="#2d5025"
-          emissiveIntensity={0.15}
+          color="#52b552"
+          emissive="#2d7a2d"
+          emissiveIntensity={0.3}
           transparent
           opacity={0.95}
           roughness={0.9}
@@ -104,9 +104,11 @@ const RotatingEarth = () => {
       {/* Desert areas - lighter brown overlay */}
       <Sphere args={[1.21, 64, 64]}>
         <meshStandardMaterial
-          color="#c9a87c"
+          color="#d4a574"
+          emissive="#b89360"
+          emissiveIntensity={0.2}
           transparent
-          opacity={0.3}
+          opacity={0.45}
           roughness={1}
           metalness={0}
         >
@@ -143,11 +145,11 @@ const RotatingEarth = () => {
       <Sphere args={[1.215, 64, 64]}>
         <meshStandardMaterial
           color="#ffffff"
-          emissive="#e0f0ff"
-          emissiveIntensity={0.3}
+          emissive="#e8f4ff"
+          emissiveIntensity={0.5}
           transparent
-          opacity={0.9}
-          roughness={0.3}
+          opacity={0.95}
+          roughness={0.2}
           metalness={0.1}
         >
           <primitive 
@@ -184,7 +186,7 @@ const RotatingEarth = () => {
         <meshStandardMaterial
           color="#ffffff"
           transparent
-          opacity={0.12}
+          opacity={0.2}
           roughness={1}
           metalness={0}
         />
@@ -193,9 +195,9 @@ const RotatingEarth = () => {
       {/* Atmosphere glow - blue like NASA */}
       <Sphere args={[1.32, 32, 32]}>
         <meshBasicMaterial
-          color="#6eb5ff"
+          color="#5eb3ff"
           transparent
-          opacity={0.08}
+          opacity={0.2}
           side={THREE.BackSide}
         />
       </Sphere>
