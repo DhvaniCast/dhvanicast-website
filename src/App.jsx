@@ -4,12 +4,14 @@ import Footer from './components/layout/Footer';
 import Hero from './components/Hero';
 import Features from './components/Features';
 import PrivacyPolicy from './components/PrivacyPolicy';
+import RefundPolicy from './components/RefundPolicy';
 import TermsOfUse from './components/TermsOfUse';
 
 function App() {
   return (
     <Routes>
       <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      <Route path="/refund-policy" element={<RefundPolicy />} />
       <Route path="/terms-of-use" element={<TermsOfUse />} />
       <Route path="/" element={
         <div className="min-h-screen bg-darker text-white">
