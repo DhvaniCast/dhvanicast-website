@@ -6,6 +6,8 @@ import Features from './components/Features';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import RefundPolicy from './components/RefundPolicy';
 import TermsOfUse from './components/TermsOfUse';
+import ChildSafety from './components/ChildSafety';
+import PlatformPolicies from './components/PlatformPolicies';
 
 function App() {
   return (
@@ -13,14 +15,16 @@ function App() {
       <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       <Route path="/refund-policy" element={<RefundPolicy />} />
       <Route path="/terms-of-use" element={<TermsOfUse />} />
+      <Route path="/child-safety" element={<ChildSafety />} />
+      <Route path="/platform-policies" element={<PlatformPolicies />} />
       <Route path="/" element={
         <div className="min-h-screen bg-darker text-white">
           <Header />
-          
+
           <main>
             <Hero />
             <Features />
-            
+
             {/* About Section */}
             <section id="about" className="section-padding bg-dark">
               <div className="container mx-auto px-4">
@@ -29,21 +33,21 @@ function App() {
                     About <span className="text-primary">Dhvani Cast</span>
                   </h2>
                   <p className="text-gray-300 mb-8">
-                    Dhvani Cast was born from a simple idea: communication should be effortless, 
-                    immersive, and accessible to everyone. Our team of audio engineers and software 
-                    developers have worked tirelessly to create a platform that revolutionizes 
+                    Dhvani Cast was born from a simple idea: communication should be effortless,
+                    immersive, and accessible to everyone. Our team of audio engineers and software
+                    developers have worked tirelessly to create a platform that revolutionizes
                     how we connect with each other through sound.
                   </p>
                   <p className="text-gray-300">
-                    Whether you're collaborating with colleagues across the globe, gaming with 
-                    friends, or catching up with family, Dhvani Cast provides the crystal-clear, 
-                    immersive audio experience you deserve. Join us in shaping the future of 
+                    Whether you're collaborating with colleagues across the globe, gaming with
+                    friends, or catching up with family, Dhvani Cast provides the crystal-clear,
+                    immersive audio experience you deserve. Join us in shaping the future of
                     communication.
                   </p>
                 </div>
               </div>
             </section>
-            
+
             {/* Contact Section */}
             <section id="contact" className="section-padding bg-darker">
               <div className="container mx-auto px-4">
@@ -52,11 +56,11 @@ function App() {
                     Get In <span className="text-primary">Touch</span>
                   </h2>
                   <p className="text-gray-400 max-w-2xl mx-auto">
-                    Have questions or feedback? We'd love to hear from you. Reach out to our team 
+                    Have questions or feedback? We'd love to hear from you. Reach out to our team
                     and we'll get back to you as soon as possible.
                   </p>
                 </div>
-                
+
                 <div className="max-w-3xl mx-auto">
                   <form className="space-y-6">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -115,7 +119,7 @@ function App() {
               </div>
             </section>
           </main>
-          
+
           <Footer />
         </div>
       } />

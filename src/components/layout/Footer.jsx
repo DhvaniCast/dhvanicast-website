@@ -55,6 +55,8 @@ const Footer = () => {
               <li><Link to="/privacy-policy" className="text-gray-400 hover:text-primary transition-colors">Privacy Policy</Link></li>
               <li><Link to="/refund-policy" className="text-gray-400 hover:text-primary transition-colors">Refund Policy</Link></li>
               <li><Link to="/terms-of-use" className="text-gray-400 hover:text-primary transition-colors">Terms of Service</Link></li>
+              <li><Link to="/child-safety" className="text-gray-400 hover:text-primary transition-colors">Child Safety</Link></li>
+              <li><Link to="/platform-policies" className="text-gray-400 hover:text-primary transition-colors">Platform Policies</Link></li>
             </ul>
           </div>
 
@@ -63,13 +65,13 @@ const Footer = () => {
             <h3 className="text-white font-semibold mb-4">Stay Updated</h3>
             <p className="text-gray-400 mb-4">Subscribe to our newsletter for the latest updates.</p>
             <form className="flex">
-              <input 
-                type="email" 
-                placeholder="Your email" 
+              <input
+                type="email"
+                placeholder="Your email"
                 className="bg-dark border border-gray-700 text-white px-4 py-2 rounded-l-md focus:outline-none focus:ring-1 focus:ring-primary w-full"
               />
-              <button 
-                type="submit" 
+              <button
+                type="submit"
                 className="bg-primary hover:bg-primary-light text-white px-4 py-2 rounded-r-md transition-colors"
               >
                 Subscribe
