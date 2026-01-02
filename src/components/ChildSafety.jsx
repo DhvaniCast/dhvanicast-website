@@ -23,10 +23,10 @@ const ChildSafety = () => {
                     <div>
                         <h2 className="text-xl font-semibold text-red-500 mb-2">Official Contact Emails</h2>
                         <div className="space-y-2">
-                            <p className="text-gray-300">
+                            {/* <p className="text-gray-300">
                                 <Mail className="inline mr-2" size={16} />
                                 <strong>Child Safety & CSAE Reporting:</strong> <a href="mailto:csae@dhvanicast.com" className="text-primary hover:text-primary-light">csae@dhvanicast.com</a>
-                            </p>
+                            </p> */}
                             <p className="text-gray-300">
                                 <Mail className="inline mr-2" size={16} />
                                 <strong>General Support & Enquiries:</strong> <a href="mailto:support@dhvanicast.com" className="text-primary hover:text-primary-light">support@dhvanicast.com</a>
