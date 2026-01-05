@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const PrivacyPolicy = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="bg-darker min-h-screen text-white py-20">
       <div className="container mx-auto px-4">
@@ -12,177 +16,217 @@ const PrivacyPolicy = () => {
             Back to Home
           </Link>
         </div>
-        
-        <h1 className="text-3xl md:text-4xl font-bold mb-8">DhvaniCast – Privacy Policy</h1>
-        
+
+        <h1 className="text-3xl md:text-4xl font-bold mb-8">Privacy Policy</h1>
+
         <div className="prose prose-invert max-w-none">
-          <p className="text-gray-300 mb-6">
-            Last Updated: December 6, 2025
-          </p>
-          
-          <p className="text-gray-300 mb-6">
-            At DhvaniCast, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, share, and protect your information when you use our internet-based radio and global communication platform.
-          </p>
-          
-          <h2 className="text-2xl font-semibold mt-8 mb-4">1. Information We Collect</h2>
-          
-          <h3 className="text-xl font-semibold mt-6 mb-3">a. Personal Information</h3>
           <p className="text-gray-300 mb-4">
-            When you register for DhvaniCast, we may collect:
+            <strong>Effective Date:</strong> 31 December 2025<br />
+            <strong>Jurisdiction:</strong> India
           </p>
-          <ul className="list-disc pl-6 mb-6 text-gray-300">
-            <li className="mb-2">Name and email address</li>
-            <li className="mb-2">Phone number</li>
-            <li className="mb-2">Profile picture and bio (optional)</li>
-            <li className="mb-2">Date of birth (to verify you are at least 18 years old)</li>
-            <li className="mb-2">Payment information (processed securely through third-party payment processors)</li>
-          </ul>
-          
-          <h3 className="text-xl font-semibold mt-6 mb-3">b. Usage Information</h3>
+
+          <div className="bg-primary/10 border border-primary rounded-lg p-6 mb-8">
+            <h2 className="text-xl font-semibold text-primary mb-3">Official Contact Emails</h2>
+            <ul className="list-none space-y-2 text-gray-300">
+              <li><strong>General Support & Enquiries:</strong> <a href="mailto:support@dhvanicast.com" className="text-primary hover:text-primary-light">support@dhvanicast.com</a></li>
+              <li><strong>Child Safety & CSAE Reporting:</strong> <a href="mailto:csae@dhvanicast.com" className="text-primary hover:text-primary-light">csae@dhvanicast.com</a></li>
+            </ul>
+          </div>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-4">2.1 Purpose and Scope</h2>
           <p className="text-gray-300 mb-4">
-            We automatically collect information about your interactions with our service:
+            Dhvani Cast respects the privacy of its users and is committed to protecting personal data shared with or collected through the platform. This Privacy Policy explains how Dhvani Cast collects, uses, stores, processes, and discloses personal data when users access or use the Dhvani Cast mobile application and related services.
           </p>
-          <ul className="list-disc pl-6 mb-6 text-gray-300">
-            <li className="mb-2">Device information (type, operating system, browser)</li>
-            <li className="mb-2">IP address and location data</li>
-            <li className="mb-2">Audio streaming preferences and listening history</li>
-            <li className="mb-2">Communication patterns and contacts</li>
-            <li className="mb-2">App usage statistics and performance data</li>
-          </ul>
-          
-          <h3 className="text-xl font-semibold mt-6 mb-3">c. Audio and Voice Data</h3>
           <p className="text-gray-300 mb-4">
-            When you use voice communication features, we may process audio data to provide our services. This data is encrypted and transmitted securely. We do not store voice recordings unless required for specific features you've opted into.
+            This policy applies to all users and all interactions with the platform, including public and private frequencies, live audio communication, text chat, image sharing, account management, and paid services.
           </p>
-          
-          <h2 className="text-2xl font-semibold mt-8 mb-4">2. How We Use Your Information</h2>
           <p className="text-gray-300 mb-4">
-            We use your information to:
+            This Privacy Policy is governed by and compliant with the Digital Personal Data Protection Act, 2023 (India), the Information Technology Act, 2000, and applicable rules and regulations.
           </p>
-          <ul className="list-disc pl-6 mb-6 text-gray-300">
-            <li className="mb-2">Provide and maintain our communication services</li>
-            <li className="mb-2">Process payments and manage subscriptions</li>
-            <li className="mb-2">Personalize your experience and improve our platform</li>
-            <li className="mb-2">Send service-related notifications and updates</li>
-            <li className="mb-2">Ensure platform security and prevent fraud</li>
-            <li className="mb-2">Comply with legal obligations</li>
-            <li className="mb-2">Analyze usage patterns to enhance features</li>
-            <li className="mb-2">Provide customer support</li>
-          </ul>
-          
-          <h2 className="text-2xl font-semibold mt-8 mb-4">3. Information Sharing</h2>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-4">2.2 Categories of Personal Data Collected</h2>
           <p className="text-gray-300 mb-4">
-            We do not sell your personal information. We may share your information only in the following circumstances:
+            Dhvani Cast collects only such personal data as is reasonably necessary to operate the platform, ensure safety, comply with legal obligations, and improve service quality.
           </p>
-          <ul className="list-disc pl-6 mb-6 text-gray-300">
-            <li className="mb-2"><strong>With Your Consent:</strong> When you explicitly agree to share information</li>
-            <li className="mb-2"><strong>Service Providers:</strong> Third-party vendors who help us operate our platform (e.g., cloud hosting, payment processing, analytics)</li>
-            <li className="mb-2"><strong>Legal Requirements:</strong> When required by law, court order, or to protect our rights and safety</li>
-            <li className="mb-2"><strong>Business Transfers:</strong> In connection with mergers, acquisitions, or asset sales</li>
-          </ul>
-          
-          <h2 className="text-2xl font-semibold mt-8 mb-4">4. Data Security</h2>
-          <p className="text-gray-300 mb-4">
-            We implement industry-standard security measures to protect your information:
-          </p>
-          <ul className="list-disc pl-6 mb-6 text-gray-300">
-            <li className="mb-2">End-to-end encryption for voice communications</li>
-            <li className="mb-2">Secure data transmission using SSL/TLS protocols</li>
-            <li className="mb-2">Regular security audits and updates</li>
-            <li className="mb-2">Access controls and authentication measures</li>
-            <li className="mb-2">Secure data centers with physical and digital safeguards</li>
+
+          <h3 className="text-xl font-semibold mt-6 mb-3">2.2.1 Account and Identity Information</h3>
+          <ul className="list-disc pl-6 mb-6 text-gray-300 space-y-2">
+            <li>Email address used for account registration</li>
+            <li>Unique user identifiers generated by the platform</li>
+            <li>Account status, login timestamps, and verification indicators</li>
           </ul>
           <p className="text-gray-300 mb-4">
-            However, no method of transmission over the internet is 100% secure. While we strive to protect your data, we cannot guarantee absolute security.
+            This data is essential for account creation, authentication, security, and communication.
           </p>
-          
-          <h2 className="text-2xl font-semibold mt-8 mb-4">5. Your Privacy Rights</h2>
-          <p className="text-gray-300 mb-4">
-            You have the right to:
-          </p>
-          <ul className="list-disc pl-6 mb-6 text-gray-300">
-            <li className="mb-2"><strong>Access:</strong> Request a copy of your personal data</li>
-            <li className="mb-2"><strong>Correction:</strong> Update or correct inaccurate information</li>
-            <li className="mb-2"><strong>Deletion:</strong> Request deletion of your account and data</li>
-            <li className="mb-2"><strong>Portability:</strong> Receive your data in a portable format</li>
-            <li className="mb-2"><strong>Opt-out:</strong> Unsubscribe from marketing communications</li>
-            <li className="mb-2"><strong>Restrict Processing:</strong> Limit how we use your data</li>
+
+          <h3 className="text-xl font-semibold mt-6 mb-3">2.2.2 Optional Profile Information</h3>
+          <ul className="list-disc pl-6 mb-6 text-gray-300 space-y-2">
+            <li>Display name chosen by the user</li>
+            <li>Profile image (if uploaded)</li>
+            <li>User preferences and app settings</li>
           </ul>
           <p className="text-gray-300 mb-4">
-            To exercise these rights, contact us at privacy@dhvanicast.com
+            Providing profile information is optional and remains under user control at all times.
           </p>
-          
-          <h2 className="text-2xl font-semibold mt-8 mb-4">6. Cookies and Tracking</h2>
-          <p className="text-gray-300 mb-4">
-            We use cookies and similar technologies to:
-          </p>
-          <ul className="list-disc pl-6 mb-6 text-gray-300">
-            <li className="mb-2">Remember your preferences and settings</li>
-            <li className="mb-2">Analyze traffic and usage patterns</li>
-            <li className="mb-2">Improve platform functionality</li>
-            <li className="mb-2">Provide personalized content</li>
+
+          <h3 className="text-xl font-semibold mt-6 mb-3">2.2.3 Usage and Interaction Data</h3>
+          <ul className="list-disc pl-6 mb-6 text-gray-300 space-y-2">
+            <li>Frequency participation details (join/leave times)</li>
+            <li>Interaction metadata (non-content based)</li>
+            <li>Feature usage statistics</li>
           </ul>
           <p className="text-gray-300 mb-4">
-            You can control cookies through your browser settings. Note that disabling cookies may affect platform functionality.
+            This data helps Dhvani Cast understand platform usage patterns and improve performance, reliability, and user experience.
           </p>
-          
-          <h2 className="text-2xl font-semibold mt-8 mb-4">7. Children's Privacy</h2>
-          <p className="text-gray-300 mb-4">
-            DhvaniCast is not intended for users under 18 years of age. We do not knowingly collect personal information from children under 18. If we discover that we have collected information from a child under 18, we will delete it immediately.
-          </p>
-          <p className="text-gray-300 mb-4">
-            If you believe a child under 18 has provided us with personal information, please contact us at privacy@dhvanicast.com
-          </p>
-          
-          <h2 className="text-2xl font-semibold mt-8 mb-4">8. Data Retention</h2>
-          <p className="text-gray-300 mb-4">
-            We retain your personal information only as long as necessary to:
-          </p>
-          <ul className="list-disc pl-6 mb-6 text-gray-300">
-            <li className="mb-2">Provide our services</li>
-            <li className="mb-2">Comply with legal obligations</li>
-            <li className="mb-2">Resolve disputes</li>
-            <li className="mb-2">Enforce our agreements</li>
+
+          <h3 className="text-xl font-semibold mt-6 mb-3">2.2.4 Device and Technical Information</h3>
+          <ul className="list-disc pl-6 mb-6 text-gray-300 space-y-2">
+            <li>Device type and operating system</li>
+            <li>App version and build number</li>
+            <li>IP address and network information</li>
           </ul>
           <p className="text-gray-300 mb-4">
-            When you delete your account, we will delete or anonymize your personal information within 30 days, except where retention is required by law.
+            This information is used for security, fraud prevention, compatibility, and diagnostics.
           </p>
-          
-          <h2 className="text-2xl font-semibold mt-8 mb-4">9. International Data Transfers</h2>
-          <p className="text-gray-300 mb-4">
-            Your information may be transferred to and processed in countries other than your country of residence. We ensure appropriate safeguards are in place to protect your data in accordance with this Privacy Policy and applicable laws.
-          </p>
-          
-          <h2 className="text-2xl font-semibold mt-8 mb-4">10. Third-Party Links</h2>
-          <p className="text-gray-300 mb-4">
-            Our platform may contain links to third-party websites or services. We are not responsible for the privacy practices of these third parties. We encourage you to review their privacy policies.
-          </p>
-          
-          <h2 className="text-2xl font-semibold mt-8 mb-4">11. Changes to This Policy</h2>
-          <p className="text-gray-300 mb-4">
-            We may update this Privacy Policy from time to time. We will notify you of significant changes through:
-          </p>
-          <ul className="list-disc pl-6 mb-6 text-gray-300">
-            <li className="mb-2">In-app notifications</li>
-            <li className="mb-2">Email announcements</li>
-            <li className="mb-2">Website updates</li>
+
+          <h3 className="text-xl font-semibold mt-6 mb-3">2.2.5 Crash Logs and Diagnostic Data</h3>
+          <ul className="list-disc pl-6 mb-6 text-gray-300 space-y-2">
+            <li>Error logs</li>
+            <li>Crash reports</li>
+            <li>Performance diagnostics</li>
           </ul>
           <p className="text-gray-300 mb-4">
-            Your continued use of DhvaniCast after changes indicates acceptance of the updated policy.
+            Such data is collected solely to identify technical issues, improve application stability, and prevent future failures.
           </p>
-          
-          <h2 className="text-2xl font-semibold mt-8 mb-4">12. Contact Us</h2>
-          <p className="text-gray-300 mb-4">
-            If you have questions or concerns about this Privacy Policy or our data practices, please contact us:
-          </p>
-          <ul className="list-disc pl-6 mb-6 text-gray-300">
-            <li className="mb-2">Email: privacy@dhvanicast.com</li>
-            <li className="mb-2">Support: support@dhvanicast.com</li>
-            <li className="mb-2">In-App Support: Help → Privacy & Security</li>
+
+          <h3 className="text-xl font-semibold mt-6 mb-3">2.2.6 Payment-Related Information</h3>
+          <ul className="list-disc pl-6 mb-6 text-gray-300 space-y-2">
+            <li>Transaction reference numbers</li>
+            <li>Payment status and timestamps</li>
           </ul>
-          
-          <p className="text-gray-300 mt-8">
-            By using DhvaniCast, you acknowledge that you have read and understood this Privacy Policy and agree to its terms.
+          <p className="text-gray-300 mb-4">
+            Dhvani Cast does not collect or store card details, UPI IDs, CVV numbers, or banking credentials. All sensitive payment data is processed directly by Razorpay.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-4">2.3 Live Audio, Chat, and Media Data Handling</h2>
+          <p className="text-gray-300 mb-4">
+            Dhvani Cast is a real-time communication platform.
+          </p>
+          <ul className="list-disc pl-6 mb-6 text-gray-300 space-y-2">
+            <li>Live audio conversations are not recorded by default.</li>
+            <li>Text chat messages and shared images may be temporarily stored to:
+              <ul className="list-circle pl-6 mt-2 space-y-1">
+                <li>Enable message delivery</li>
+                <li>Support moderation and abuse prevention</li>
+                <li>Investigate reported violations</li>
+                <li>Comply with legal obligations</li>
+              </ul>
+            </li>
+          </ul>
+          <p className="text-gray-300 mb-4">
+            Private frequency data is protected by enhanced access controls and is not publicly searchable.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-4">2.4 Purpose of Data Processing</h2>
+          <p className="text-gray-300 mb-4">
+            Personal data is processed for the following legitimate purposes:
+          </p>
+          <ul className="list-disc pl-6 mb-6 text-gray-300 space-y-2">
+            <li>Account creation and authentication</li>
+            <li>Enabling live communication features</li>
+            <li>Ensuring platform safety and abuse prevention</li>
+            <li>Processing payments and transactions</li>
+            <li>Providing customer support</li>
+            <li>Complying with legal and regulatory requirements</li>
+            <li>Improving platform performance and reliability</li>
+          </ul>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-4">2.5 Payments and Third-Party Processing</h2>
+          <p className="text-gray-300 mb-4">
+            All payments are processed exclusively through Razorpay, a regulated Indian payment gateway.
+          </p>
+          <p className="text-gray-300 mb-4">
+            Dhvani Cast:
+          </p>
+          <ul className="list-disc pl-6 mb-6 text-gray-300 space-y-2">
+            <li>Does not process payments directly</li>
+            <li>Does not store sensitive financial data</li>
+            <li>Receives only confirmation and transaction references</li>
+          </ul>
+          <p className="text-gray-300 mb-4">
+            Payment processing is governed by Razorpay's privacy and security standards.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-4">2.6 Data Security Measures</h2>
+          <p className="text-gray-300 mb-4">
+            Dhvani Cast implements appropriate technical and organizational safeguards to protect personal data, including:
+          </p>
+          <ul className="list-disc pl-6 mb-6 text-gray-300 space-y-2">
+            <li>Encryption of data in transit and at rest</li>
+            <li>Restricted internal access to personal data</li>
+            <li>Secure authentication mechanisms</li>
+            <li>Continuous monitoring for unauthorized access</li>
+          </ul>
+          <p className="text-gray-300 mb-4">
+            Security practices are reviewed periodically to address evolving risks.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-4">2.7 Data Retention and Deletion</h2>
+          <p className="text-gray-300 mb-4">
+            Personal data is retained only for as long as necessary to:
+          </p>
+          <ul className="list-disc pl-6 mb-6 text-gray-300 space-y-2">
+            <li>Provide the Service</li>
+            <li>Enforce platform policies</li>
+            <li>Resolve disputes or investigations</li>
+            <li>Comply with legal obligations</li>
+          </ul>
+          <p className="text-gray-300 mb-4">
+            Once data is no longer required, it is securely deleted or anonymized.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-4">2.8 User Rights and Control</h2>
+          <p className="text-gray-300 mb-4">
+            Users have the right to:
+          </p>
+          <ul className="list-disc pl-6 mb-6 text-gray-300 space-y-2">
+            <li>Request access to their personal data</li>
+            <li>Request correction of inaccurate data</li>
+            <li>Request deletion of personal data, subject to legal retention requirements</li>
+          </ul>
+          <p className="text-gray-300 mb-4">
+            Requests may be submitted by emailing support@dhvanicast.com and will be addressed within a reasonable timeframe.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-4">2.9 Data Sharing and Disclosure</h2>
+          <p className="text-gray-300 mb-4">
+            Dhvani Cast does not sell personal data.
+          </p>
+          <p className="text-gray-300 mb-4">
+            Data may be shared only:
+          </p>
+          <ul className="list-disc pl-6 mb-6 text-gray-300 space-y-2">
+            <li>With trusted service providers (hosting, analytics, payments)</li>
+            <li>With law enforcement or authorities when legally required</li>
+            <li>To protect the rights, safety, and integrity of the platform or its users</li>
+          </ul>
+          <p className="text-gray-300 mb-4">
+            All third parties are bound by confidentiality and data protection obligations.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-4">2.10 Legal Compliance</h2>
+          <p className="text-gray-300 mb-4">
+            Dhvani Cast complies with:
+          </p>
+          <ul className="list-disc pl-6 mb-6 text-gray-300 space-y-2">
+            <li>Digital Personal Data Protection Act, 2023</li>
+            <li>Information Technology Act, 2000</li>
+            <li>Applicable IT Rules and regulations</li>
+          </ul>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-4">2.11 Privacy Policy Updates</h2>
+          <p className="text-gray-300 mb-4">
+            This Privacy Policy may be updated periodically to reflect legal, technical, or operational changes. Material updates will be communicated through the app or email. Continued use of the platform constitutes acceptance of the updated policy.
           </p>
         </div>
       </div>

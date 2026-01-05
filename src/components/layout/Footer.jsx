@@ -4,6 +4,10 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <footer className="bg-darker py-12 border-t border-gray-800">
       <div className="container mx-auto px-4">
@@ -52,11 +56,11 @@ const Footer = () => {
             <ul className="space-y-2">
               <li><a href="#" className="text-gray-400 hover:text-primary transition-colors">Documentation</a></li>
               <li><a href="#" className="text-gray-400 hover:text-primary transition-colors">Support</a></li>
-              <li><Link to="/privacy-policy" className="text-gray-400 hover:text-primary transition-colors">Privacy Policy</Link></li>
-              <li><Link to="/refund-policy" className="text-gray-400 hover:text-primary transition-colors">Refund Policy</Link></li>
-              <li><Link to="/terms-of-use" className="text-gray-400 hover:text-primary transition-colors">Terms of Service</Link></li>
-              <li><Link to="/child-safety" className="text-gray-400 hover:text-primary transition-colors">Child Safety</Link></li>
-              <li><Link to="/platform-policies" className="text-gray-400 hover:text-primary transition-colors">Platform Policies</Link></li>
+              <li><Link to="/privacy-policy" onClick={scrollToTop} className="text-gray-400 hover:text-primary transition-colors">Privacy Policy</Link></li>
+              <li><Link to="/refund-policy" onClick={scrollToTop} className="text-gray-400 hover:text-primary transition-colors">Refund Policy</Link></li>
+              <li><Link to="/terms-of-use" onClick={scrollToTop} className="text-gray-400 hover:text-primary transition-colors">Terms of Service</Link></li>
+              <li><Link to="/child-safety" onClick={scrollToTop} className="text-gray-400 hover:text-primary transition-colors">Child Safety</Link></li>
+              <li><Link to="/platform-policies" onClick={scrollToTop} className="text-gray-400 hover:text-primary transition-colors">Platform Policies</Link></li>
             </ul>
           </div>
 

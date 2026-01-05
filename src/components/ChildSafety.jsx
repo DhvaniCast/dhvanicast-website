@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { ArrowLeft, Mail, Shield, AlertTriangle } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const ChildSafety = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div className="bg-darker min-h-screen text-white py-20">
             <div className="container mx-auto px-4">
@@ -21,12 +25,16 @@ const ChildSafety = () => {
                 <div className="bg-red-900/20 border border-red-500 rounded-lg p-6 mb-8 flex items-start">
                     <AlertTriangle className="text-red-500 mr-4 flex-shrink-0 mt-1" size={24} />
                     <div>
-                        <h2 className="text-xl font-semibold text-red-500 mb-2">Official Contact Emails</h2>
+                        <h2 className="text-xl font-semibold text-red-500 mb-3">ZERO TOLERANCE NOTICE</h2>
+                        <p className="text-gray-300 mb-4">
+                            Dhvani Cast maintains a zero-tolerance policy toward Child Sexual Abuse and Exploitation. Any violation results in permanent removal and reporting to authorities, regardless of user intent or account status.
+                        </p>
+                        <h3 className="text-lg font-semibold text-red-400 mb-2">Official Contact Emails:</h3>
                         <div className="space-y-2">
-                            {/* <p className="text-gray-300">
+                            <p className="text-gray-300">
                                 <Mail className="inline mr-2" size={16} />
                                 <strong>Child Safety & CSAE Reporting:</strong> <a href="mailto:csae@dhvanicast.com" className="text-primary hover:text-primary-light">csae@dhvanicast.com</a>
-                            </p> */}
+                            </p>
                             <p className="text-gray-300">
                                 <Mail className="inline mr-2" size={16} />
                                 <strong>General Support & Enquiries:</strong> <a href="mailto:support@dhvanicast.com" className="text-primary hover:text-primary-light">support@dhvanicast.com</a>

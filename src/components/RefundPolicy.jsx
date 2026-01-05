@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const RefundPolicy = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="bg-darker min-h-screen text-white py-20">
       <div className="container mx-auto px-4">
@@ -12,90 +16,63 @@ const RefundPolicy = () => {
             Back to Home
           </Link>
         </div>
-        
-        <h1 className="text-3xl md:text-4xl font-bold mb-8">DhvaniCast – Refund Policy</h1>
-        
+
+        <h1 className="text-3xl md:text-4xl font-bold mb-8">Refund and Cancellation Policy</h1>
+
         <div className="prose prose-invert max-w-none">
-          <p className="text-gray-300 mb-6">
-            At DhvaniCast, we aim to provide a seamless, high-quality communication experience through our internet-based radio and global-connect platform. This Refund Policy explains the conditions under which refunds may be issued for our digital services or subscriptions.
-          </p>
-          
-          <h2 className="text-2xl font-semibold mt-8 mb-4">1. Digital Service Nature</h2>
           <p className="text-gray-300 mb-4">
-            DhvaniCast operates entirely online. All features, premium tools, and subscriptions are digital services and do not involve any physical product or shipment.
+            <strong>Effective Date:</strong> 31 December 2025<br />
+            <strong>Jurisdiction:</strong> India
           </p>
-          
-          <h2 className="text-2xl font-semibold mt-8 mb-4">2. Refund Eligibility</h2>
+
+          <div className="bg-primary/10 border border-primary rounded-lg p-6 mb-8">
+            <h2 className="text-xl font-semibold text-primary mb-3">Official Contact Emails</h2>
+            <ul className="list-none space-y-2 text-gray-300">
+              <li><strong>General Support & Enquiries:</strong> <a href="mailto:support@dhvanicast.com" className="text-primary hover:text-primary-light">support@dhvanicast.com</a></li>
+              <li><strong>Child Safety & CSAE Reporting:</strong> <a href="mailto:csae@dhvanicast.com" className="text-primary hover:text-primary-light">csae@dhvanicast.com</a></li>
+            </ul>
+          </div>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-4">9.1 Nature of Digital Services</h2>
           <p className="text-gray-300 mb-4">
-            Refunds are handled carefully to prevent misuse. You may be eligible for a refund only under the following conditions:
+            Private frequencies offered on Dhvani Cast are time-bound, exclusive digital services. Once activated, these services are immediately consumed by reserving exclusive access to a specific frequency for a defined duration.
           </p>
-          
-          <h3 className="text-xl font-semibold mt-6 mb-3">a. Duplicate Payment</h3>
           <p className="text-gray-300 mb-4">
-            If you were charged twice for the same subscription or feature, we will issue a full refund after verification.
+            Due to the nature of these services, private frequencies:
           </p>
-          
-          <h3 className="text-xl font-semibold mt-6 mb-3">b. Technical Issues (Unresolved)</h3>
+          <ul className="list-disc pl-6 mb-6 text-gray-300 space-y-2">
+            <li>Cannot be reused once activated</li>
+            <li>Cannot be transferred to another user</li>
+            <li>Cannot be resold or extended after expiry</li>
+          </ul>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-4">9.2 Refund Eligibility Criteria</h2>
           <p className="text-gray-300 mb-4">
-            If you experience a technical problem that prevents you from using a paid feature and our support team cannot resolve it within 72 hours, you may request a refund.
+            Refunds are granted only in limited circumstances where:
           </p>
-          
-          <h3 className="text-xl font-semibold mt-6 mb-3">c. Service Not Activated</h3>
-          <p className="text-gray-300 mb-4">
-            If a paid feature or premium access was never activated on your account despite successful payment, a refund will be issued.
-          </p>
-          
-          <h2 className="text-2xl font-semibold mt-8 mb-4">3. Non-Refundable Situations</h2>
-          <p className="text-gray-300 mb-4">
-            Refunds will not be provided in the following cases:
-          </p>
-          <ul className="list-disc pl-6 mb-6 text-gray-300">
-            <li className="mb-2">Change of mind after purchase</li>
-            <li className="mb-2">Partial usage of a subscription</li>
-            <li className="mb-2">Temporary outages or server maintenance</li>
-            <li className="mb-2">User error or incorrect account details during purchase</li>
-            <li className="mb-2">Violation of DhvaniCast's terms leading to account restrictions</li>
+          <ul className="list-disc pl-6 mb-6 text-gray-300 space-y-2">
+            <li>Payment has been successfully completed, and</li>
+            <li>The purchased service is not delivered due to a verified technical failure attributable solely to Dhvani Cast</li>
           </ul>
           <p className="text-gray-300 mb-4">
-            Once digital services have been accessed or used, they are considered consumed and cannot be refunded.
+            Refunds are not issued for reasons including, but not limited to:
           </p>
-          
-          <h2 className="text-2xl font-semibold mt-8 mb-4">4. Refund Request Process</h2>
+          <ul className="list-disc pl-6 mb-6 text-gray-300 space-y-2">
+            <li>User dissatisfaction</li>
+            <li>Accidental purchases</li>
+            <li>Failure to use the service within the validity period</li>
+            <li>Issues arising from password sharing or user error</li>
+          </ul>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-4">9.3 Refund Request and Processing</h2>
           <p className="text-gray-300 mb-4">
-            To submit a refund request, please contact our support team through:
+            Refund requests must be submitted within 24 hours of the transaction and must include relevant transaction details, such as the payment reference number and account information.
           </p>
-          <ul className="list-disc pl-6 mb-6 text-gray-300">
-            <li className="mb-2">In-App Support → Help → Billing</li>
-            <li className="mb-2">Email: support@dhvanicast.com</li>
-          </ul>
           <p className="text-gray-300 mb-4">
-            Please provide:
+            All refund requests are reviewed on a case-by-case basis. If approved, refunds are processed through the original payment method in accordance with Razorpay's processing timelines and applicable regulations.
           </p>
-          <ul className="list-disc pl-6 mb-6 text-gray-300">
-            <li className="mb-2">Registered mobile number / email</li>
-            <li className="mb-2">Payment ID / Transaction ID</li>
-            <li className="mb-2">Description of the issue</li>
-          </ul>
           <p className="text-gray-300 mb-4">
-            Refund evaluations typically take 3–7 working days.
-          </p>
-          
-          <h2 className="text-2xl font-semibold mt-8 mb-4">5. Refund Mode & Timeline</h2>
-          <ul className="list-disc pl-6 mb-6 text-gray-300">
-            <li className="mb-2">Approved refunds will be processed back to the original payment method.</li>
-            <li className="mb-2">Refund completion may take 5–10 working days, depending on the bank or payment provider.</li>
-          </ul>
-          
-          <h2 className="text-2xl font-semibold mt-8 mb-4">6. Subscription Cancellations</h2>
-          <ul className="list-disc pl-6 mb-6 text-gray-300">
-            <li className="mb-2">You may cancel your DhvaniCast subscription anytime.</li>
-            <li className="mb-2">However, cancellation does not generate an automatic refund.</li>
-            <li className="mb-2">Your premium access will continue until the end of the billing period.</li>
-          </ul>
-          
-          <h2 className="text-2xl font-semibold mt-8 mb-4">7. Policy Changes</h2>
-          <p className="text-gray-300 mb-4">
-            DhvaniCast reserves the right to update or modify this Refund Policy at any time. Changes will be posted within the app or on our website.
+            Dhvani Cast reserves the right to deny refund requests that do not meet the eligibility criteria or where misuse or abuse is identified.
           </p>
         </div>
       </div>

@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { ArrowLeft, Mail, FileText } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const PlatformPolicies = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div className="bg-darker min-h-screen text-white py-20">
             <div className="container mx-auto px-4">

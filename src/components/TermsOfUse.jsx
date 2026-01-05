@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const TermsOfUse = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="bg-darker min-h-screen text-white py-20">
       <div className="container mx-auto px-4">
@@ -12,73 +16,149 @@ const TermsOfUse = () => {
             Back to Home
           </Link>
         </div>
-        
-        <h1 className="text-3xl md:text-4xl font-bold mb-8">Terms of Use</h1>
-        
-        <div className="prose prose-invert max-w-none">
-          <p className="text-gray-300 mb-6">
-            Last Updated: November 16, 2025
+
+        <h1 className="text-3xl md:text-4xl font-bold mb-8">Terms of Use / User Agreement</h1>
+
+        <div className="prose prose-invert max-w-none space-y-6">
+          <p className="text-gray-400">
+            <strong>Effective Date:</strong> 31 December 2025<br />
+            <strong>Jurisdiction:</strong> India
           </p>
-          
-          <h2 className="text-2xl font-semibold mt-8 mb-4">1. Agreement to Terms</h2>
+
+          <div className="bg-primary/10 border border-primary rounded-lg p-6 mb-8">
+            <h3 className="text-xl font-semibold text-primary mb-3">Official Contact Emails</h3>
+            <p className="text-gray-300 mb-2">
+              <strong>General Support & Enquiries:</strong> <a href="mailto:support@dhvanicast.com" className="text-primary hover:text-primary-light">support@dhvanicast.com</a>
+            </p>
+            <p className="text-gray-300">
+              <strong>Child Safety & CSAE Reporting:</strong> <a href="mailto:csae@dhvanicast.com" className="text-primary hover:text-primary-light">csae@dhvanicast.com</a>
+            </p>
+          </div>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-4">1.1 Introduction and Scope</h2>
           <p className="text-gray-300 mb-4">
-            These Terms of Use constitute a legally binding agreement made between you and Dhvani Cast, concerning your access to and use of the Dhvani Cast website and mobile application. By accessing or using our service, you agree to be bound by these Terms of Use. If you disagree with any part of the terms, then you may not access the service.
-          </p>
-          
-          <h2 className="text-2xl font-semibold mt-8 mb-4">2. Intellectual Property Rights</h2>
-          <p className="text-gray-300 mb-4">
-            The Service and its original content, features, and functionality are and will remain the exclusive property of Dhvani Cast and its licensors. The Service is protected by copyright, trademark, and other laws of both the United States and foreign countries. Our trademarks and trade dress may not be used in connection with any product or service without the prior written consent of Dhvani Cast.
-          </p>
-          
-          <h2 className="text-2xl font-semibold mt-8 mb-4">3. Age Requirement</h2>
-          <p className="text-gray-300 mb-4">
-            You must be at least 18 years old to use Dhvani Cast. By using our Service, you represent and warrant that you are 18 years of age or older. We do not knowingly collect information from or direct any of our content specifically to anyone under 18 years of age.
-          </p>
-          
-          <h2 className="text-2xl font-semibold mt-8 mb-4">4. User Accounts</h2>
-          <p className="text-gray-300 mb-4">
-            When you create an account with us, you must provide information that is accurate, complete, and current at all times. Failure to do so constitutes a breach of the Terms, which may result in immediate termination of your account on our Service.
+            Welcome to Dhvani Cast.
           </p>
           <p className="text-gray-300 mb-4">
-            You are responsible for safeguarding the password that you use to access the Service and for any activities or actions under your password. You agree not to disclose your password to any third party. You must notify us immediately upon becoming aware of any breach of security or unauthorized use of your account.
-          </p>
-          
-          <h2 className="text-2xl font-semibold mt-8 mb-4">5. User Content</h2>
-          <p className="text-gray-300 mb-4">
-            Our Service allows you to post, link, store, share and otherwise make available certain information, text, graphics, videos, or other material. You are responsible for the content that you post on or through the Service, including its legality, reliability, and appropriateness.
+            These Terms of Use ("Terms") govern your access to and use of the Dhvani Cast platform, including its mobile application, backend services, communication infrastructure, paid features, and all related functionalities (collectively referred to as the "Service").
           </p>
           <p className="text-gray-300 mb-4">
-            By posting content on or through the Service, you represent and warrant that: (i) the content is yours (you own it) or you have the right to use it and grant us the rights and license as provided in these Terms, and (ii) the posting of your content on or through the Service does not violate the privacy rights, publicity rights, copyrights, contract rights or any other rights of any person.
+            Dhvani Cast is a live audio communication platform built on a frequency-based radio model, where users can join numbered frequencies to communicate with multiple participants in real time using voice, text chat, and image sharing. Each frequency functions as a shared live communication space rather than a one-to-one calling service.
           </p>
-          
-          <h2 className="text-2xl font-semibold mt-8 mb-4">6. Prohibited Uses</h2>
           <p className="text-gray-300 mb-4">
-            You may use the Service only for lawful purposes and in accordance with these Terms. You agree not to use the Service:
+            By accessing, registering for, or using Dhvani Cast in any manner, you acknowledge that you have read, understood, and agreed to be legally bound by these Terms. If you do not agree with any part of these Terms, you must immediately discontinue use of the Service.
           </p>
-          <ul className="list-disc pl-6 mb-6 text-gray-300">
-            <li className="mb-2">In any way that violates any applicable national or international law or regulation.</li>
-            <li className="mb-2">For the purpose of exploiting, harming, or attempting to exploit or harm minors in any way.</li>
-            <li className="mb-2">To transmit, or procure the sending of, any advertising or promotional material, including any "junk mail," "chain letter," "spam," or any other similar solicitation.</li>
-            <li className="mb-2">To impersonate or attempt to impersonate the Company, a Company employee, another user, or any other person or entity.</li>
+          <p className="text-gray-300 mb-4">
+            These Terms constitute a legally binding agreement between you and the operator of Dhvani Cast.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-4">1.2 Eligibility and Age Restriction (Strict 18+ Platform)</h2>
+          <p className="text-gray-300 mb-4">
+            Dhvani Cast is designed and operated exclusively for adult users.
+          </p>
+          <p className="text-gray-300 mb-4">
+            Only individuals who are <strong>18 years of age or older</strong> are permitted to create an account, access frequencies, or use any feature of the platform. There are <strong>no teen accounts, no child accounts, and no minor-accessible modes</strong> available on Dhvani Cast.
+          </p>
+          <p className="text-gray-300 mb-4">
+            By registering on the platform, the user explicitly represents and warrants that:
+          </p>
+          <ul className="list-disc pl-6 mb-6 text-gray-300 space-y-2">
+            <li>They are at least 18 years old at the time of registration</li>
+            <li>All information provided during registration is truthful and accurate</li>
+            <li>They possess the legal capacity to enter into a binding agreement</li>
           </ul>
-          
-          <h2 className="text-2xl font-semibold mt-8 mb-4">7. Termination</h2>
           <p className="text-gray-300 mb-4">
-            We may terminate or suspend your account immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms. Upon termination, your right to use the Service will immediately cease.
+            If Dhvani Cast becomes aware, through reports, investigations, or technical detection, that an account belongs to a person under 18 years of age, such account will be <strong>immediately suspended or permanently terminated</strong> without prior notice. Any associated data may be retained solely for legal and compliance obligations.
           </p>
-          
-          <h2 className="text-2xl font-semibold mt-8 mb-4">8. Limitation of Liability</h2>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-4">1.3 Account Registration and Security</h2>
           <p className="text-gray-300 mb-4">
-            In no event shall Dhvani Cast, nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from (i) your access to or use of or inability to access or use the Service; (ii) any conduct or content of any third party on the Service; (iii) any content obtained from the Service; and (iv) unauthorized access, use or alteration of your transmissions or content, whether based on warranty, contract, tort (including negligence) or any other legal theory, whether or not we have been informed of the possibility of such damage.
-          </p>
-          
-          <h2 className="text-2xl font-semibold mt-8 mb-4">9. Contact Us</h2>
-          <p className="text-gray-300 mb-4">
-            If you have any questions about these Terms, please contact us at:
+            To access Dhvani Cast, users must create an account using a valid and active email address. Each user is permitted to maintain only one account unless explicitly authorized by Dhvani Cast.
           </p>
           <p className="text-gray-300 mb-4">
-            Email: legal@dhvanicast.com<br />
-            Address: 123 Tech Street, Innovation City, 12345
+            Users are solely responsible for:
+          </p>
+          <ul className="list-disc pl-6 mb-6 text-gray-300 space-y-2">
+            <li>Maintaining the confidentiality of their login credentials</li>
+            <li>All activity conducted through their account</li>
+            <li>Ensuring that their account is not accessed by unauthorized individuals</li>
+          </ul>
+          <p className="text-gray-300 mb-4">
+            Dhvani Cast will not be responsible for losses arising from unauthorized access resulting from user negligence, including sharing login details or failing to secure email access.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-4">1.4 User Responsibilities and Acceptable Use</h2>
+          <p className="text-gray-300 mb-4">
+            Users agree to use Dhvani Cast in a lawful, respectful, and responsible manner. Participation in frequencies requires adherence to community norms, platform rules, and applicable laws.
+          </p>
+          <p className="text-gray-300 mb-4">
+            Users are responsible for:
+          </p>
+          <ul className="list-disc pl-6 mb-6 text-gray-300 space-y-2">
+            <li>Their spoken audio during live communication</li>
+            <li>Messages sent through chat features</li>
+            <li>Images shared within frequencies</li>
+            <li>Conduct toward other users</li>
+          </ul>
+          <p className="text-gray-300 mb-4">
+            Any misuse of the platform that disrupts communication, harms others, or violates legal standards may result in enforcement action.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-4">1.5 Prohibited Activities</h2>
+          <p className="text-gray-300 mb-4">
+            To maintain platform integrity and user safety, Dhvani Cast strictly prohibits activities including but not limited to:
+          </p>
+          <ul className="list-disc pl-6 mb-6 text-gray-300 space-y-2">
+            <li>Harassment, intimidation, threats, or abusive behavior</li>
+            <li>Hate speech, discrimination, or demeaning language</li>
+            <li>Sharing sexually explicit, obscene, or illegal content</li>
+            <li>Recording, storing, or redistributing live conversations without consent</li>
+            <li>Impersonation of other users or entities</li>
+            <li>Automated usage, bots, scraping, or exploitation of platform vulnerabilities</li>
+            <li>Misuse of private frequencies for illegal or harmful purposes</li>
+          </ul>
+          <p className="text-gray-300 mb-4">
+            Violations may result in warnings, temporary restrictions, permanent account bans, and reporting to authorities where legally required.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-4">1.6 User Content and License</h2>
+          <p className="text-gray-300 mb-4">
+            Users retain ownership of any content they create or share on Dhvani Cast. However, by using the Service, users grant Dhvani Cast a limited, non-exclusive, royalty-free license to transmit, host, and display such content solely for the purpose of operating and improving the Service.
+          </p>
+          <p className="text-gray-300 mb-4">
+            This license does not transfer ownership of user content to Dhvani Cast.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-4">1.7 Suspension and Termination</h2>
+          <p className="text-gray-300 mb-4">
+            Dhvani Cast reserves the right to suspend or terminate user accounts at its sole discretion when necessary to:
+          </p>
+          <ul className="list-disc pl-6 mb-6 text-gray-300 space-y-2">
+            <li>Enforce these Terms</li>
+            <li>Protect platform safety</li>
+            <li>Comply with legal obligations</li>
+            <li>Address repeated or severe violations</li>
+          </ul>
+          <p className="text-gray-300 mb-4">
+            Termination decisions may be final, especially in cases involving illegal activity or CSAE concerns.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-4">1.8 Disclaimer and Limitation of Liability</h2>
+          <p className="text-gray-300 mb-4">
+            Dhvani Cast is provided on an "as-is" and "as-available" basis. The platform does not guarantee uninterrupted service, frequency availability, or error-free operation.
+          </p>
+          <p className="text-gray-300 mb-4">
+            Dhvani Cast is not liable for user-generated content, user conduct, or interactions between users.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-4">1.9 Governing Law</h2>
+          <p className="text-gray-300 mb-4">
+            These Terms are governed by the laws of India, including the Information Technology Act, 2000.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-4">1.10 Changes to Terms</h2>
+          <p className="text-gray-300 mb-4">
+            Dhvani Cast may modify these Terms periodically. Continued use of the platform after changes constitutes acceptance.
           </p>
         </div>
       </div>
