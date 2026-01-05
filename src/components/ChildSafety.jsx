@@ -129,6 +129,14 @@ const ChildSafety = () => {
                             <li>Controlled frequency access</li>
                             <li>Account-level enforcement tools</li>
                         </ul>
+
+                        <h3 className="text-xl font-semibold mt-6 mb-3">4.4 Hash-Based Detection</h3>
+                        <p className="text-gray-300 mb-4">
+                            Where technically feasible, Dhvani Cast uses industry-standard hash-based detection techniques to identify known Child Sexual Abuse Material (CSAM) across images and shared media.
+                        </p>
+                        <p className="text-gray-300">
+                            This enables rapid identification and removal of previously reported CSAM without requiring human viewing of illegal material.
+                        </p>
                     </section>
 
                     <section>
@@ -180,6 +188,17 @@ const ChildSafety = () => {
                             <li>Removal of all related content</li>
                             <li>Zero possibility of reinstatement</li>
                         </ul>
+
+                        <h3 className="text-xl font-semibold mt-6 mb-3">6.4 Response Timelines</h3>
+                        <p className="text-gray-300 mb-4">Dhvani Cast follows strict response timelines for CSAE content:</p>
+                        <ul className="list-disc list-inside text-gray-300 space-y-2 ml-4">
+                            <li><strong>Immediate</strong> automated restriction upon detection</li>
+                            <li><strong>Human moderator review within 24 hours</strong></li>
+                            <li><strong>Permanent enforcement and reporting within 24–48 hours</strong> of confirmation</li>
+                        </ul>
+                        <p className="text-red-400 font-semibold mt-4">
+                            No CSAE-related content is allowed to remain accessible once flagged.
+                        </p>
                     </section>
 
                     <section>
@@ -196,6 +215,21 @@ const ChildSafety = () => {
 
                         <h3 className="text-xl font-semibold mt-6 mb-3">7.1 Law Enforcement Reporting</h3>
                         <p className="text-gray-300 mb-4">Confirmed CSAE cases are reported to:</p>
+
+                        <p className="text-gray-300 mt-6 mb-4">
+                            In addition to reporting to Indian law enforcement authorities, Dhvani Cast will report all confirmed instances of Child Sexual Abuse Material (CSAM) to the <strong>National Center for Missing & Exploited Children (NCMEC)</strong>, as required under international child protection standards and Google Play Developer Program Policies.
+                        </p>
+                        <p className="text-gray-300 mb-4">Reports submitted to NCMEC may include:</p>
+                        <ul className="list-disc list-inside text-gray-300 space-y-2 ml-4">
+                            <li>User identifiers</li>
+                            <li>Content identifiers</li>
+                            <li>IP addresses</li>
+                            <li>Timestamps</li>
+                            <li>Relevant metadata required for investigation</li>
+                        </ul>
+                        <p className="text-gray-300 mt-4">
+                            Dhvani Cast cooperates fully with NCMEC, Google, and law enforcement agencies to support the identification, investigation, and prosecution of CSAE offenses.
+                        </p>
                         <ul className="list-disc list-inside text-gray-300 space-y-2 ml-4">
                             <li>Relevant Indian law enforcement agencies</li>
                             <li>Cybercrime units</li>
@@ -213,6 +247,11 @@ const ChildSafety = () => {
                         <h2 className="text-2xl font-semibold mb-4 text-primary">8. Child Safety Point of Contact</h2>
                         <p className="text-gray-300 mb-4">
                             Dhvani Cast has designated a Child Safety Point of Contact to receive and act on CSAE notifications, including those from Google Play.
+                        </p>
+
+                        <h3 className="text-xl font-semibold mt-6 mb-3">8.2 Google Play Coordination</h3>
+                        <p className="text-gray-300">
+                            The designated Child Safety Point of Contact is authorized to respond to and act upon CSAE notifications received from Google Play, including emergency takedown requests, compliance inquiries, and policy audits.
                         </p>
 
                         <h3 className="text-xl font-semibold mt-6 mb-3">8.1 Designated Contact</h3>
@@ -252,6 +291,14 @@ const ChildSafety = () => {
                             <li>Strict confidentiality</li>
                             <li>Limited internal access</li>
                             <li>Secure data handling</li>
+                            <div className="bg-red-900/20 border border-red-500 rounded-lg p-4 mt-6">
+                                <p className="text-gray-300 font-semibold">
+                                    <strong>Important Notice:</strong> Private frequencies, paid rooms, or password-protected communication spaces are NOT exempt from CSAE detection, moderation, reporting, or enforcement.
+                                </p>
+                                <p className="text-gray-300 mt-3">
+                                    Any CSAE-related activity detected in private frequencies will be treated with the same zero-tolerance enforcement as public spaces, including immediate removal, account termination, and mandatory reporting to authorities.
+                                </p>
+                            </div>
                             <li>Sensitivity toward potential victims</li>
                         </ul>
                         <p className="text-gray-300 mt-4">

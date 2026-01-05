@@ -133,6 +133,11 @@ const PlatformPolicies = () => {
                         <p className="text-gray-300 mb-4">
                             All frequencies, including private ones, may be reviewed or restricted if violations, illegal activity, or CSAE concerns are suspected. Dhvani Cast prioritizes safety and legal compliance over frequency privacy.
                         </p>
+
+                        <h3 className="text-xl font-semibold mt-6 mb-3">4.7 Private frequencies, paid rooms, or password-protected communication spaces are NOT exempt from CSAE detection, moderation, reporting, or enforcement.</h3>
+                        <p className="text-gray-300 mb-4">
+                            Any CSAE-related activity detected in private frequencies will be treated with the same zero-tolerance enforcement as public spaces, including immediate removal, account termination, and mandatory reporting to authorities.
+                        </p>
                     </section>
 
                     {/* Section 5 - Platform Operations Policy */}

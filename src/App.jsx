@@ -8,6 +8,7 @@ import RefundPolicy from './components/RefundPolicy';
 import TermsOfUse from './components/TermsOfUse';
 import ChildSafety from './components/ChildSafety';
 import PlatformPolicies from './components/PlatformPolicies';
+import CommunityGuidelines from './components/CommunityGuidelines';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Route path="/terms-of-use" element={<TermsOfUse />} />
       <Route path="/child-safety" element={<ChildSafety />} />
       <Route path="/platform-policies" element={<PlatformPolicies />} />
+      <Route path="/community-guidelines" element={<CommunityGuidelines />} />
       <Route path="/" element={
         <div className="min-h-screen bg-darker text-white">
           <Header />
