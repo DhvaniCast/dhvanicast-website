@@ -58,8 +58,13 @@ const Footer = () => {
               <li><Link to="/privacy-policy" onClick={scrollToTop} className="text-gray-400 hover:text-primary transition-colors">Privacy Policy</Link></li>
               <li><Link to="/child-safety" onClick={scrollToTop} className="text-gray-400 hover:text-primary transition-colors">Child Safety and CSAE Policy</Link></li>
               <li><Link to="/community-guidelines" onClick={scrollToTop} className="text-gray-400 hover:text-primary transition-colors">Community Guidelines</Link></li>
-              <li><Link to="/refund-policy" onClick={scrollToTop} className="text-gray-400 hover:text-primary transition-colors">Refund Policy</Link></li>
-              <li><Link to="/platform-policies" onClick={scrollToTop} className="text-gray-400 hover:text-primary transition-colors">Platform Policies</Link></li>
+              <li><Link to="/cookie-policy" onClick={scrollToTop} className="text-gray-400 hover:text-primary transition-colors">Cookie Policy</Link></li>
+    
+              <li><Link to="/frequency-usage-policy" onClick={scrollToTop} className="text-gray-400 hover:text-primary transition-colors">Frequency Usage Policy</Link></li>
+              <li><Link to="/platform-operations-policy" onClick={scrollToTop} className="text-gray-400 hover:text-primary transition-colors">Platform Operations Policy</Link></li>
+              <li><Link to="/transparency-and-moderation-policy" onClick={scrollToTop} className="text-gray-400 hover:text-primary transition-colors">Transparency and Moderation Policy</Link></li>
+              <li><Link to="/payment-policy" onClick={scrollToTop} className="text-gray-400 hover:text-primary transition-colors">Payment Policy</Link></li>
+              <li><Link to="/refund-policy" onClick={scrollToTop} className="text-gray-400 hover:text-primary transition-colors">Refund and Cancellation Policy</Link></li>
             </ul>
           </div>
 

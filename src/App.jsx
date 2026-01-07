@@ -1,3 +1,5 @@
+import CookiePolicy from './components/CookiePolicy';
+import PaymentPolicy from './components/PaymentPolicy';
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
@@ -7,17 +9,28 @@ import PrivacyPolicy from './components/PrivacyPolicy';
 import RefundPolicy from './components/RefundPolicy';
 import TermsOfUse from './components/TermsOfUse';
 import ChildSafety from './components/ChildSafety';
-import PlatformPolicies from './components/PlatformPolicies';
 import CommunityGuidelines from './components/CommunityGuidelines';
+import FrequencyUsagePolicy from './components/FrequencyUsagePolicy';
+import PlatformOperationsPolicy from './components/PlatformOperationsPolicy';
+import TransparencyandModerationPolicy from './components/TransparencyandModerationPolicy';
 
 function App() {
   return (
     <Routes>
+      <Route path="/cookie-policy" element={<CookiePolicy />} />
+      <Route path="/payment-policy" element={<PaymentPolicy />} />
       <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       <Route path="/refund-policy" element={<RefundPolicy />} />
       <Route path="/terms-of-use" element={<TermsOfUse />} />
       <Route path="/child-safety" element={<ChildSafety />} />
-      <Route path="/platform-policies" element={<PlatformPolicies />} />
+      
+      <Route path="/FrequencyUsagePolicy" element={<FrequencyUsagePolicy />} />
+      <Route path="/frequency-usage-policy" element={<FrequencyUsagePolicy />} />
+      <Route path="/PlatformOperationsPolicy" element={<PlatformOperationsPolicy />} />
+      <Route path="/platform-operations-policy" element={<PlatformOperationsPolicy />} />
+      <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
+      <Route path="/TransparencyandModerationPolicy" element={<TransparencyandModerationPolicy />} />
+      <Route path="/transparency-and-moderation-policy" element={<TransparencyandModerationPolicy />} />
       <Route path="/community-guidelines" element={<CommunityGuidelines />} />
       <Route path="/" element={
         <div className="min-h-screen bg-darker text-white">

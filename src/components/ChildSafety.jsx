@@ -214,7 +214,20 @@ const ChildSafety = () => {
                         </ul>
 
                         <h3 className="text-xl font-semibold mt-6 mb-3">7.1 Law Enforcement Reporting</h3>
-                        <p className="text-gray-300 mb-4">Confirmed CSAE cases are reported to:</p>
+                        <p className="text-gray-300 mb-4">Confirmed CSAE cases are reported to:
+                             <ul className="list-disc list-inside text-gray-300 space-y-2 ml-4">
+                            <li>Relevant Indian law enforcement agencies</li>
+                            <li>Cybercrime units</li>
+                            <li>Other legally mandated authorities</li>
+                        </ul>
+                        </p>
+                         <p className="text-gray-300 mb-4">Where applicable, Dhvani Cast cooperates with:
+                             <ul className="list-disc list-inside text-gray-300 space-y-2 ml-4">
+                            <li>Government agencies</li>
+                            <li>Platform partners</li>
+                            <li>Regulatory bodies</li>
+                        </ul>
+                        </p>
 
                         <p className="text-gray-300 mt-6 mb-4">
                             In addition to reporting to Indian law enforcement authorities, Dhvani Cast will report all confirmed instances of Child Sexual Abuse Material (CSAM) to the <strong>National Center for Missing & Exploited Children (NCMEC)</strong>, as required under international child protection standards and Google Play Developer Program Policies.
@@ -230,17 +243,7 @@ const ChildSafety = () => {
                         <p className="text-gray-300 mt-4">
                             Dhvani Cast cooperates fully with NCMEC, Google, and law enforcement agencies to support the identification, investigation, and prosecution of CSAE offenses.
                         </p>
-                        <ul className="list-disc list-inside text-gray-300 space-y-2 ml-4">
-                            <li>Relevant Indian law enforcement agencies</li>
-                            <li>Cybercrime units</li>
-                            <li>Other legally mandated authorities</li>
-                        </ul>
-                        <p className="text-gray-300 mt-4">Where applicable, Dhvani Cast cooperates with:</p>
-                        <ul className="list-disc list-inside text-gray-300 space-y-2 ml-4">
-                            <li>Government agencies</li>
-                            <li>Platform partners</li>
-                            <li>Regulatory bodies</li>
-                        </ul>
+                       
                     </section>
 
                     <section>
@@ -248,12 +251,6 @@ const ChildSafety = () => {
                         <p className="text-gray-300 mb-4">
                             Dhvani Cast has designated a Child Safety Point of Contact to receive and act on CSAE notifications, including those from Google Play.
                         </p>
-
-                        <h3 className="text-xl font-semibold mt-6 mb-3">8.2 Google Play Coordination</h3>
-                        <p className="text-gray-300">
-                            The designated Child Safety Point of Contact is authorized to respond to and act upon CSAE notifications received from Google Play, including emergency takedown requests, compliance inquiries, and policy audits.
-                        </p>
-
                         <h3 className="text-xl font-semibold mt-6 mb-3">8.1 Designated Contact</h3>
                         <div className="bg-primary/10 border border-primary rounded-lg p-4 my-4">
                             <p className="text-gray-300 flex items-center">
@@ -269,6 +266,10 @@ const ChildSafety = () => {
                             <li>Responds to Google Play inquiries regarding CSAE compliance</li>
                         </ul>
                     </section>
+                    <h3 className="text-xl font-semibold mt-6 mb-3">8.2 Google Play Coordination</h3>
+                        <p className="text-gray-300">
+                            The designated Child Safety Point of Contact is authorized to respond to and act upon CSAE notifications received from Google Play, including emergency takedown requests, compliance inquiries, and policy audits.
+                        </p>
 
                     <section>
                         <h2 className="text-2xl font-semibold mb-4 text-primary">9. User Responsibilities</h2>
