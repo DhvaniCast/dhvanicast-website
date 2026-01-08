@@ -27,6 +27,32 @@ const CookiePolicy = () => {
                 </div>
                 <div className="prose prose-invert max-w-none space-y-6">
                     {/* ...existing code... */}
+                                        {/* Section 2.2.4 - Device and Technical Information (ADDITION 1) */}
+                                        <section>
+                                            <h2 className="text-2xl font-semibold mb-4 text-primary">2.2.4 Device and Technical Information</h2>
+                                            <ul className="list-disc list-inside text-gray-300 space-y-2 ml-4">
+                                                <li>Device type and operating system</li>
+                                                <li>App version and build number</li>
+                                                <li>IP address and network information</li>
+                                                <li>Device name and device identifiers provided by the operating system</li>
+                                            </ul>
+                                            <p className="text-gray-300 mt-4">
+                                                This information is used for security, fraud prevention, compatibility, diagnostics, and to detect unauthorized or suspicious access, including the use of unsupported network configurations.
+                                            </p>
+                                        </section>
+                                        {/* Section 2.6.1 - Network Integrity and VPN Restrictions (ADDITION 2) */}
+                                        <section>
+                                            <h2 className="text-2xl font-semibold mb-4 text-primary">2.6.1 Network Integrity and VPN Restrictions</h2>
+                                            <p className="text-gray-300 mb-4">
+                                                To maintain platform security, prevent misuse, and ensure compliance with safety and regulatory requirements, Dhvani Cast monitors network integrity indicators such as IP address consistency, device identifiers, and connection characteristics.
+                                            </p>
+                                            <p className="text-gray-300 mb-4">
+                                                The use of Virtual Private Networks (VPNs), proxy services, or anonymization tools is not supported on the Dhvani Cast platform. Access attempts detected through VPNs or similar technologies may be restricted, limited, or blocked to protect platform integrity, prevent abuse, and ensure accurate enforcement of safety policies.
+                                            </p>
+                                            <p className="text-gray-300 mb-4">
+                                                Users are required to access the platform using a standard, non-anonymized internet connection. Attempts to circumvent these requirements may result in limited functionality or denial of access.
+                                            </p>
+                                        </section>
                     <section>
                         <h2 className="text-2xl font-semibold mb-4 text-primary">6. Cookie Policy</h2>
 
