@@ -89,17 +89,6 @@ const PrivacyPolicy = () => {
           <p className="text-gray-300 mb-4">
             This information is used for security, fraud prevention, compatibility, diagnostics, and to detect unauthorized or suspicious access, including the use of unsupported network configurations.
           </p>
-          {/* 2.6.1 Network Integrity and VPN Restrictions */}
-          <h3 className="text-xl font-semibold mt-6 mb-3">2.6.1 Network Integrity and VPN Restrictions</h3>
-          <p className="text-gray-300 mb-4">
-            To maintain platform security, prevent misuse, and ensure compliance with safety and regulatory requirements, Dhvani Cast monitors network integrity indicators such as IP address consistency, device identifiers, and connection characteristics.
-          </p>
-          <p className="text-gray-300 mb-4">
-            The use of Virtual Private Networks (VPNs), proxy services, or anonymization tools is not supported on the Dhvani Cast platform. Access attempts detected through VPNs or similar technologies may be restricted, limited, or blocked to protect platform integrity, prevent abuse, and ensure accurate enforcement of safety policies.
-          </p>
-          <p className="text-gray-300 mb-4">
-            Users are required to access the platform using a standard, non-anonymized internet connection. Attempts to circumvent these requirements may result in limited functionality or denial of access.
-          </p>
 
           <h3 className="text-xl font-semibold mt-6 mb-3">2.2.5 Crash Logs and Diagnostic Data</h3>
           <ul className="list-disc pl-6 mb-6 text-gray-300 space-y-2">
@@ -181,6 +170,18 @@ const PrivacyPolicy = () => {
           </ul>
           <p className="text-gray-300 mb-4">
             Security practices are reviewed periodically to address evolving risks.
+          </p>
+
+          {/* 2.6.1 Network Integrity and VPN Restrictions */}
+          <h3 className="text-xl font-semibold mt-6 mb-3">2.6.1 Network Integrity and VPN Restrictions</h3>
+          <p className="text-gray-300 mb-4">
+            To maintain platform security, prevent misuse, and ensure compliance with safety and regulatory requirements, Dhvani Cast monitors network integrity indicators such as IP address consistency, device identifiers, and connection characteristics.
+          </p>
+          <p className="text-gray-300 mb-4">
+            The use of Virtual Private Networks (VPNs), proxy services, or anonymization tools is not supported on the Dhvani Cast platform. Access attempts detected through VPNs or similar technologies may be restricted, limited, or blocked to protect platform integrity, prevent abuse, and ensure accurate enforcement of safety policies.
+          </p>
+          <p className="text-gray-300 mb-4">
+            Users are required to access the platform using a standard, non-anonymized internet connection. Continued attempts to bypass network restrictions may result in temporary or permanent account limitations.
           </p>
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">2.7 Data Retention and Deletion</h2>
