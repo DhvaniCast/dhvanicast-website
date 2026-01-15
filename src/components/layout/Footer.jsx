@@ -90,7 +90,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-12 pt-6 text-center">
           <p className="text-gray-400">
-            &copy; {currentYear} DC Audio Rooms. All rights reserved.
+            &copy; {currentYear} All rights reserved to Editevolv Software Private Limited.
           </p>
         </div>
       </div>
