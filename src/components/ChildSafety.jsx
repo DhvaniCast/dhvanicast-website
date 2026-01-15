@@ -148,7 +148,7 @@ const ChildSafety = () => {
                         <h3 className="text-xl font-semibold mt-6 mb-3">5.1 How Users Can Report</h3>
                         <p className="text-gray-300 mb-4">Users can report suspected CSAE by:</p>
                         <ul className="list-disc list-inside text-gray-300 space-y-2 ml-4">
-                            <li>Navigating to <strong>Settings → Safety → Report CSAE</strong></li>
+                            <li>Navigating to <strong>Settings → Help & support → Report CSAE</strong></li>
                             <li>Reporting a specific user, chat message, image, or frequency</li>
                             <li>Submitting a report via email to <a href="mailto:csae@dhvanicast.com" className="text-primary hover:text-primary-light">csae@dhvanicast.com</a></li>
                         </ul>

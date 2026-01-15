@@ -17,7 +17,7 @@ const Footer = () => {
             <div className="flex items-center mb-4">
               <Volume2 className="text-primary mr-2" size={24} />
               <h2 className="text-xl font-bold text-white">
-                <span className="text-primary">Dhvani</span> Cast
+                <span className="text-primary">DC Audio</span> Rooms
               </h2>
             </div>
             <p className="text-gray-400 mb-4">

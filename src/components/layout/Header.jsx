@@ -24,16 +24,15 @@ const Header = () => {
 
   return (
     <>
-      <header 
-        className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-          scrolled ? 'bg-darker/90 backdrop-blur-md py-3' : 'bg-transparent py-5'
-        }`}
+      <header
+        className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled ? 'bg-darker/90 backdrop-blur-md py-3' : 'bg-transparent py-5'
+          }`}
       >
         <div className="container mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center">
             <Volume2 className="text-primary mr-2" size={28} />
             <h1 className="text-2xl font-bold text-white">
-              <span className="text-primary">Dhvani</span> Cast
+              <span className="text-primary">DC Audio</span> Rooms
             </h1>
           </div>
 
@@ -47,7 +46,7 @@ const Header = () => {
           </nav>
 
           {/* Mobile Menu Button */}
-          <button 
+          <button
             className="md:hidden text-white focus:outline-none"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
@@ -59,29 +58,29 @@ const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden bg-darker/95 backdrop-blur-md absolute top-full left-0 w-full py-4 px-4">
             <nav className="flex flex-col space-y-4">
-              <a 
-                href="#home" 
+              <a
+                href="#home"
                 className="text-white hover:text-primary transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
               </a>
-              <a 
-                href="#features" 
+              <a
+                href="#features"
                 className="text-white hover:text-primary transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Features
               </a>
-              <a 
-                href="#about" 
+              <a
+                href="#about"
                 className="text-white hover:text-primary transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 About
               </a>
-              <a 
-                href="#contact" 
+              <a
+                href="#contact"
                 className="text-white hover:text-primary transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -94,9 +93,9 @@ const Header = () => {
       </header>
 
       {/* Download Popup */}
-      <DownloadPopup 
-        isOpen={isDownloadPopupOpen} 
-        onClose={() => setIsDownloadPopupOpen(false)} 
+      <DownloadPopup
+        isOpen={isDownloadPopupOpen}
+        onClose={() => setIsDownloadPopupOpen(false)}
       />
     </>
   );
