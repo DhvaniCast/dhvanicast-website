@@ -59,7 +59,7 @@ const Footer = () => {
               <li><Link to="/child-safety" onClick={scrollToTop} className="text-gray-400 hover:text-primary transition-colors">Child Safety and CSAE Policy</Link></li>
               <li><Link to="/community-guidelines" onClick={scrollToTop} className="text-gray-400 hover:text-primary transition-colors">Community Guidelines</Link></li>
               <li><Link to="/cookie-policy" onClick={scrollToTop} className="text-gray-400 hover:text-primary transition-colors">Cookie Policy</Link></li>
-    
+
               <li><Link to="/frequency-usage-policy" onClick={scrollToTop} className="text-gray-400 hover:text-primary transition-colors">Frequency Usage Policy</Link></li>
               <li><Link to="/platform-operations-policy" onClick={scrollToTop} className="text-gray-400 hover:text-primary transition-colors">Platform Operations Policy</Link></li>
               <li><Link to="/transparency-and-moderation-policy" onClick={scrollToTop} className="text-gray-400 hover:text-primary transition-colors">Transparency and Moderation Policy</Link></li>
@@ -90,7 +90,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-12 pt-6 text-center">
           <p className="text-gray-400">
-            &copy; {currentYear} Dhvani Cast. All rights reserved.
+            &copy; {currentYear} DC Audio Rooms. All rights reserved.
           </p>
         </div>
       </div>

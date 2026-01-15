@@ -4,25 +4,25 @@ import { Link } from 'react-router-dom';
 
 const DownloadPopup = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
-  
+
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70">
-      <motion.div 
+      <motion.div
         className="bg-dark rounded-xl p-6 max-w-md w-full border border-gray-800"
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         exit={{ opacity: 0, scale: 0.9 }}
       >
         <div className="flex justify-between items-center mb-6">
-          <h2 className="text-2xl font-bold">Download Dhvani Cast</h2>
-          <button 
+          <h2 className="text-2xl font-bold">Download DC Audio Rooms</h2>
+          <button
             onClick={onClose}
             className="text-gray-400 hover:text-white transition-colors"
           >
             <X size={24} />
           </button>
         </div>
-        
+
         <div className="space-y-6">
 
           {/* ANDROID APK */}
@@ -39,7 +39,7 @@ const DownloadPopup = ({ isOpen, onClose }) => {
               <p className="text-sm text-gray-400">Version 1.2.0</p>
             </div>
 
-            <a 
+            <a
               href="https://storage.googleapis.com/dhvani-apk-files/app-release.apk"
               className="btn-primary"
               download="app-release.apk"
@@ -62,7 +62,7 @@ const DownloadPopup = ({ isOpen, onClose }) => {
               <p className="text-sm text-gray-400">Version 1.2.0</p>
             </div>
 
-            <a 
+            <a
               href="https://storage.googleapis.com/dhvani-apk-files/Runner.app.ipa"
               className="btn-primary"
               download="Runner.app.ipa"
@@ -70,11 +70,11 @@ const DownloadPopup = ({ isOpen, onClose }) => {
               Download
             </a>
           </div>
-          
+
           <p className="text-sm text-gray-400 text-center mt-4">
-            By downloading, you agree to our 
+            By downloading, you agree to our
             <Link to="/terms-of-use" className="text-primary hover:underline" onClick={onClose}> Terms of Service </Link>
-            and 
+            and
             <Link to="/privacy-policy" className="text-primary hover:underline" onClick={onClose}> Privacy Policy</Link>
           </p>
         </div>

@@ -1,6 +1,6 @@
-# Dhvani Cast - Immersive 3D Website
+# DC Audio Rooms - Immersive 3D Website
 
-A modern, immersive 3D website for the Dhvani Cast app, showcasing its features and capabilities in making communication easy and immersive.
+A modern, immersive 3D website for the DC Audio Rooms app, showcasing its features and capabilities in making communication easy and immersive.
 
 ## Features
 
@@ -31,21 +31,25 @@ A modern, immersive 3D website for the Dhvani Cast app, showcasing its features 
 ### Installation
 
 1. Clone the repository
+
    ```bash
    git clone https://github.com/yourusername/dhvani-cast-website.git
    ```
 
 2. Navigate to the project directory
+
    ```bash
    cd dhvani-cast-website
    ```
 
 3. Install dependencies
+
    ```bash
    npm install
    ```
 
 4. Start the development server
+
    ```bash
    npm run dev
    ```

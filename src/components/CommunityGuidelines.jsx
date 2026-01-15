@@ -37,10 +37,10 @@ const CommunityGuidelines = () => {
 
                     <h2 className="text-2xl font-semibold mt-8 mb-4">3.1 Purpose and Philosophy</h2>
                     <p className="text-gray-300 mb-4">
-                        Dhvani Cast is a live, frequency-based communication platform that enables real-time interaction between multiple users through voice, text chat, and image sharing. Because communication occurs live and involves simultaneous participation by many individuals, the quality, safety, and integrity of the platform depend heavily on responsible user behavior.
+                        DC Audio Rooms is a live, frequency-based communication platform that enables real-time interaction between multiple users through voice, text chat, and image sharing. Because communication occurs live and involves simultaneous participation by many individuals, the quality, safety, and integrity of the platform depend heavily on responsible user behavior.
                     </p>
                     <p className="text-gray-300 mb-4">
-                        These Community Guidelines are established to define acceptable conduct, prevent harm, protect users from abuse, and ensure that Dhvani Cast remains a safe and inclusive environment for adult users. All users are expected to understand that participation on the platform is a privilege, not a right, and continued access is conditional upon adherence to these guidelines.
+                        These Community Guidelines are established to define acceptable conduct, prevent harm, protect users from abuse, and ensure that DC Audio Rooms remains a safe and inclusive environment for adult users. All users are expected to understand that participation on the platform is a privilege, not a right, and continued access is conditional upon adherence to these guidelines.
                     </p>
 
                     <h2 className="text-2xl font-semibold mt-8 mb-4">3.2 Standards of Conduct</h2>
@@ -53,7 +53,7 @@ const CommunityGuidelines = () => {
 
                     <h2 className="text-2xl font-semibold mt-8 mb-4">3.3 Harassment, Abuse, and Hate Speech</h2>
                     <p className="text-gray-300 mb-4">
-                        Dhvani Cast strictly prohibits harassment, bullying, intimidation, or abuse of any kind. This includes persistent unwanted communication, verbal attacks, threats, humiliation, or coordinated targeting of individuals or groups.
+                        DC Audio Rooms strictly prohibits harassment, bullying, intimidation, or abuse of any kind. This includes persistent unwanted communication, verbal attacks, threats, humiliation, or coordinated targeting of individuals or groups.
                     </p>
                     <p className="text-gray-300 mb-4">
                         Hate speech and discriminatory behavior are expressly forbidden. Content or conduct that promotes hatred, violence, or exclusion based on race, religion, caste, gender, sexual orientation, nationality, disability, or any protected characteristic will result in immediate enforcement action.
@@ -69,7 +69,7 @@ const CommunityGuidelines = () => {
 
                     <h2 className="text-2xl font-semibold mt-8 mb-4">3.5 Media and Image Sharing Responsibilities</h2>
                     <p className="text-gray-300 mb-4">
-                        Images shared on Dhvani Cast must comply with community standards and applicable law. Users are responsible for ensuring that any media they share does not violate privacy, intellectual property rights, or platform rules.
+                        Images shared on DC Audio Rooms must comply with community standards and applicable law. Users are responsible for ensuring that any media they share does not violate privacy, intellectual property rights, or platform rules.
                     </p>
                     <p className="text-gray-300 mb-4">
                         Images involving nudity, sexual activity, minors, graphic violence, or personal data of others will be removed and may result in account suspension or termination.
@@ -77,7 +77,7 @@ const CommunityGuidelines = () => {
 
                     <h2 className="text-2xl font-semibold mt-8 mb-4">3.6 Reporting, Enforcement, and Escalation</h2>
                     <p className="text-gray-300 mb-4">
-                        Dhvani Cast provides in-app tools for reporting violations. Reports are reviewed using a combination of automated systems and human moderation.
+                        DC Audio Rooms provides in-app tools for reporting violations. Reports are reviewed using a combination of automated systems and human moderation.
                     </p>
                     <p className="text-gray-300 mb-4">
                         Depending on severity and frequency, enforcement actions may include warnings, temporary restrictions, muting, removal from frequencies, suspension, or permanent account termination. Severe violations may be escalated directly to permanent enforcement without prior warning.

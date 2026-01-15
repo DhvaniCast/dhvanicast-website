@@ -23,7 +23,7 @@ const TransparencyandModerationPolicy = () => {
         </div>
         <h3 className="text-xl font-semibold mt-6 mb-3">7.1 Moderation Framework</h3>
         <p className="text-gray-300 mb-4">
-          Dhvani Cast is committed to maintaining a safe, lawful, and respectful environment across all frequencies and platform features. To achieve this, the platform operates a hybrid moderation framework that combines automated detection technologies with human review by trained moderation personnel.
+          DC Audio Rooms is committed to maintaining a safe, lawful, and respectful environment across all frequencies and platform features. To achieve this, the platform operates a hybrid moderation framework that combines automated detection technologies with human review by trained moderation personnel.
         </p>
         <p className="text-gray-300 mb-4">
           Automated systems are used to identify potential policy violations at scale, including patterns associated with abuse, spamming, coordinated misuse, illegal activity, and CSAE-related risks. These systems are designed to act as early-warning mechanisms and to prioritize content or accounts for further review.
@@ -39,7 +39,7 @@ const TransparencyandModerationPolicy = () => {
         </p>
         <h3 className="text-xl font-semibold mt-6 mb-3">7.2 Transparency, Accountability, and Record-Keeping</h3>
         <p className="text-gray-300 mb-4">
-          To ensure accountability and consistency, Dhvani Cast maintains internal records of moderation actions taken on the platform. These records may include information such as the nature of the violation, the type of enforcement action applied, timestamps, and reference identifiers.
+          To ensure accountability and consistency, DC Audio Rooms maintains internal records of moderation actions taken on the platform. These records may include information such as the nature of the violation, the type of enforcement action applied, timestamps, and reference identifiers.
         </p>
         <p className="text-gray-300 mb-4">Moderation logs are maintained for the following purposes:</p>
         <ul className="list-disc list-inside text-gray-300 space-y-2 ml-4">
@@ -52,17 +52,17 @@ const TransparencyandModerationPolicy = () => {
           Access to moderation records is restricted to authorized personnel only and is governed by internal access controls and data protection policies. Logs are retained only for as long as necessary to meet operational, legal, or compliance obligations.
         </p>
         <p className="text-gray-300 mt-4">
-          Dhvani Cast may disclose moderation-related information to authorities when legally required or to protect the safety and integrity of the platform and its users.
+          DC Audio Rooms may disclose moderation-related information to authorities when legally required or to protect the safety and integrity of the platform and its users.
         </p>
         <h3 className="text-xl font-semibold mt-6 mb-3">7.3 User Notifications, Appeals, and Finality</h3>
         <p className="text-gray-300 mb-4">
           Where appropriate and feasible, users may be notified of significant moderation actions affecting their accounts, such as suspensions or permanent bans. Notification may be provided through in-app messages, email communication, or account status updates.
         </p>
         <p className="text-gray-300 mb-4">
-          Users may contact support@dhvanicast.com to request a review of certain moderation actions. Appeals are reviewed by Dhvani Cast on a case-by-case basis, taking into account platform rules, user history, available evidence, and safety considerations.
+          Users may contact support@dhvanicast.com to request a review of certain moderation actions. Appeals are reviewed by DC Audio Rooms on a case-by-case basis, taking into account platform rules, user history, available evidence, and safety considerations.
         </p>
         <p className="text-gray-300 mb-4">
-          Dhvani Cast reserves the right to make final determinations regarding moderation outcomes. In cases involving serious violations, illegal activity, CSAE concerns, or repeated abuse, enforcement decisions may be final and not subject to appeal, in order to protect platform integrity and user safety.
+          DC Audio Rooms reserves the right to make final determinations regarding moderation outcomes. In cases involving serious violations, illegal activity, CSAE concerns, or repeated abuse, enforcement decisions may be final and not subject to appeal, in order to protect platform integrity and user safety.
         </p>
       </div>
     </div>

@@ -37,27 +37,27 @@ const TermsOfUse = () => {
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">1.1 Introduction and Scope</h2>
           <p className="text-gray-300 mb-4">
-            Welcome to Dhvani Cast.
+            Welcome to DC Audio Rooms.
           </p>
           <p className="text-gray-300 mb-4">
-            These Terms of Use ("Terms") govern your access to and use of the Dhvani Cast platform, including its mobile application, backend services, communication infrastructure, paid features, and all related functionalities (collectively referred to as the "Service").
+            These Terms of Use ("Terms") govern your access to and use of the DC Audio Rooms platform, including its mobile application, backend services, communication infrastructure, paid features, and all related functionalities (collectively referred to as the "Service").
           </p>
           <p className="text-gray-300 mb-4">
-            Dhvani Cast is a live audio communication platform built on a frequency-based radio model, where users can join numbered frequencies to communicate with multiple participants in real time using voice, text chat, and image sharing. Each frequency functions as a shared live communication space rather than a one-to-one calling service.
+            DC Audio Rooms is a live audio communication platform built on a frequency-based radio model, where users can join numbered frequencies to communicate with multiple participants in real time using voice, text chat, and image sharing. Each frequency functions as a shared live communication space rather than a one-to-one calling service.
           </p>
           <p className="text-gray-300 mb-4">
-            By accessing, registering for, or using Dhvani Cast in any manner, you acknowledge that you have read, understood, and agreed to be legally bound by these Terms. If you do not agree with any part of these Terms, you must immediately discontinue use of the Service.
+            By accessing, registering for, or using DC Audio Rooms in any manner, you acknowledge that you have read, understood, and agreed to be legally bound by these Terms. If you do not agree with any part of these Terms, you must immediately discontinue use of the Service.
           </p>
           <p className="text-gray-300 mb-4">
-            These Terms constitute a legally binding agreement between you and the operator of Dhvani Cast.
+            These Terms constitute a legally binding agreement between you and the operator of DC Audio Rooms.
           </p>
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">1.2 Eligibility and Age Restriction (Strict 18+ Platform)</h2>
           <p className="text-gray-300 mb-4">
-            Dhvani Cast is designed and operated exclusively for adult users.
+            DC Audio Rooms is designed and operated exclusively for adult users.
           </p>
           <p className="text-gray-300 mb-4">
-            Only individuals who are <strong>18 years of age or older</strong> are permitted to create an account, access frequencies, or use any feature of the platform. There are <strong>no teen accounts, no child accounts, and no minor-accessible modes</strong> available on Dhvani Cast.
+            Only individuals who are <strong>18 years of age or older</strong> are permitted to create an account, access frequencies, or use any feature of the platform. There are <strong>no teen accounts, no child accounts, and no minor-accessible modes</strong> available on DC Audio Rooms.
           </p>
           <p className="text-gray-300 mb-4">
             By registering on the platform, the user explicitly represents and warrants that:
@@ -68,12 +68,12 @@ const TermsOfUse = () => {
             <li>They possess the legal capacity to enter into a binding agreement</li>
           </ul>
           <p className="text-gray-300 mb-4">
-            If Dhvani Cast becomes aware, through reports, investigations, or technical detection, that an account belongs to a person under 18 years of age, such account will be <strong>immediately suspended or permanently terminated</strong> without prior notice. Any associated data may be retained solely for legal and compliance obligations.
+            If DC Audio Rooms becomes aware, through reports, investigations, or technical detection, that an account belongs to a person under 18 years of age, such account will be <strong>immediately suspended or permanently terminated</strong> without prior notice. Any associated data may be retained solely for legal and compliance obligations.
           </p>
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">1.3 Account Registration and Security</h2>
           <p className="text-gray-300 mb-4">
-            To access Dhvani Cast, users must create an account using a valid and active email address. Each user is permitted to maintain only one account unless explicitly authorized by Dhvani Cast.
+            To access DC Audio Rooms, users must create an account using a valid and active email address. Each user is permitted to maintain only one account unless explicitly authorized by DC Audio Rooms.
           </p>
           <p className="text-gray-300 mb-4">
             Users are solely responsible for:
@@ -84,12 +84,12 @@ const TermsOfUse = () => {
             <li>Ensuring that their account is not accessed by unauthorized individuals</li>
           </ul>
           <p className="text-gray-300 mb-4">
-            Dhvani Cast will not be responsible for losses arising from unauthorized access resulting from user negligence, including sharing login details or failing to secure email access.
+            DC Audio Rooms will not be responsible for losses arising from unauthorized access resulting from user negligence, including sharing login details or failing to secure email access.
           </p>
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">1.4 User Responsibilities and Acceptable Use</h2>
           <p className="text-gray-300 mb-4">
-            Users agree to use Dhvani Cast in a lawful, respectful, and responsible manner. Participation in frequencies requires adherence to community norms, platform rules, and applicable laws.
+            Users agree to use DC Audio Rooms in a lawful, respectful, and responsible manner. Participation in frequencies requires adherence to community norms, platform rules, and applicable laws.
           </p>
           <p className="text-gray-300 mb-4">
             Users are responsible for:
@@ -106,7 +106,7 @@ const TermsOfUse = () => {
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">1.5 Prohibited Activities</h2>
           <p className="text-gray-300 mb-4">
-            To maintain platform integrity and user safety, Dhvani Cast strictly prohibits activities including but not limited to:
+            To maintain platform integrity and user safety, DC Audio Rooms strictly prohibits activities including but not limited to:
           </p>
           <ul className="list-disc pl-6 mb-6 text-gray-300 space-y-2">
             <li>Harassment, intimidation, threats, or abusive behavior</li>
@@ -123,15 +123,15 @@ const TermsOfUse = () => {
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">1.6 User Content and License</h2>
           <p className="text-gray-300 mb-4">
-            Users retain ownership of any content they create or share on Dhvani Cast. However, by using the Service, users grant Dhvani Cast a limited, non-exclusive, royalty-free license to transmit, host, and display such content solely for the purpose of operating and improving the Service.
+            Users retain ownership of any content they create or share on DC Audio Rooms. However, by using the Service, users grant DC Audio Rooms a limited, non-exclusive, royalty-free license to transmit, host, and display such content solely for the purpose of operating and improving the Service.
           </p>
           <p className="text-gray-300 mb-4">
-            This license does not transfer ownership of user content to Dhvani Cast.
+            This license does not transfer ownership of user content to DC Audio Rooms.
           </p>
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">1.7 Suspension and Termination</h2>
           <p className="text-gray-300 mb-4">
-            Dhvani Cast reserves the right to suspend or terminate user accounts at its sole discretion when necessary to:
+            DC Audio Rooms reserves the right to suspend or terminate user accounts at its sole discretion when necessary to:
           </p>
           <ul className="list-disc pl-6 mb-6 text-gray-300 space-y-2">
             <li>Enforce these Terms</li>
@@ -145,10 +145,10 @@ const TermsOfUse = () => {
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">1.8 Disclaimer and Limitation of Liability</h2>
           <p className="text-gray-300 mb-4">
-            Dhvani Cast is provided on an "as-is" and "as-available" basis. The platform does not guarantee uninterrupted service, frequency availability, or error-free operation.
+            DC Audio Rooms is provided on an "as-is" and "as-available" basis. The platform does not guarantee uninterrupted service, frequency availability, or error-free operation.
           </p>
           <p className="text-gray-300 mb-4">
-            Dhvani Cast is not liable for user-generated content, user conduct, or interactions between users.
+            DC Audio Rooms is not liable for user-generated content, user conduct, or interactions between users.
           </p>
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">1.9 Governing Law</h2>
@@ -158,7 +158,7 @@ const TermsOfUse = () => {
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">1.10 Changes to Terms</h2>
           <p className="text-gray-300 mb-4">
-            Dhvani Cast may modify these Terms periodically. Continued use of the platform after changes constitutes acceptance.
+            DC Audio Rooms may modify these Terms periodically. Continued use of the platform after changes constitutes acceptance.
           </p>
         </div>
       </div>

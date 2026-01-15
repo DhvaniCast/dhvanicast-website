@@ -35,7 +35,7 @@ const PrivacyPolicy = () => {
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">2.1 Purpose and Scope</h2>
           <p className="text-gray-300 mb-4">
-            Dhvani Cast respects the privacy of its users and is committed to protecting personal data shared with or collected through the platform. This Privacy Policy explains how Dhvani Cast collects, uses, stores, processes, and discloses personal data when users access or use the Dhvani Cast mobile application and related services.
+            DC Audio Rooms respects the privacy of its users and is committed to protecting personal data shared with or collected through the platform. This Privacy Policy explains how DC Audio Rooms collects, uses, stores, processes, and discloses personal data when users access or use the DC Audio Rooms mobile application and related services.
           </p>
           <p className="text-gray-300 mb-4">
             This policy applies to all users and all interactions with the platform, including public and private frequencies, live audio communication, text chat, image sharing, account management, and paid services.
@@ -46,7 +46,7 @@ const PrivacyPolicy = () => {
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">2.2 Categories of Personal Data Collected</h2>
           <p className="text-gray-300 mb-4">
-            Dhvani Cast collects only such personal data as is reasonably necessary to operate the platform, ensure safety, comply with legal obligations, and improve service quality.
+            DC Audio Rooms collects only such personal data as is reasonably necessary to operate the platform, ensure safety, comply with legal obligations, and improve service quality.
           </p>
 
           <h3 className="text-xl font-semibold mt-6 mb-3">2.2.1 Account and Identity Information</h3>
@@ -76,7 +76,7 @@ const PrivacyPolicy = () => {
             <li>Feature usage statistics</li>
           </ul>
           <p className="text-gray-300 mb-4">
-            This data helps Dhvani Cast understand platform usage patterns and improve performance, reliability, and user experience.
+            This data helps DC Audio Rooms understand platform usage patterns and improve performance, reliability, and user experience.
           </p>
 
           <h3 className="text-xl font-semibold mt-6 mb-3">2.2.4 Device and Technical Information</h3>
@@ -106,12 +106,12 @@ const PrivacyPolicy = () => {
             <li>Payment status and timestamps</li>
           </ul>
           <p className="text-gray-300 mb-4">
-            Dhvani Cast does not collect or store card details, UPI IDs, CVV numbers, or banking credentials. All sensitive payment data is processed directly by Razorpay.
+            DC Audio Rooms does not collect or store card details, UPI IDs, CVV numbers, or banking credentials. All sensitive payment data is processed directly by Razorpay.
           </p>
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">2.3 Live Audio, Chat, and Media Data Handling</h2>
           <p className="text-gray-300 mb-4">
-            Dhvani Cast is a real-time communication platform.
+            DC Audio Rooms is a real-time communication platform.
           </p>
           <ul className="list-disc pl-6 mb-6 text-gray-300 space-y-2">
             <li>Live audio conversations are not recorded by default.</li>
@@ -147,7 +147,7 @@ const PrivacyPolicy = () => {
             All payments are processed exclusively through Razorpay, a regulated Indian payment gateway.
           </p>
           <p className="text-gray-300 mb-4">
-            Dhvani Cast:
+            DC Audio Rooms:
           </p>
           <ul className="list-disc pl-6 mb-6 text-gray-300 space-y-2">
             <li>Does not process payments directly</li>
@@ -160,7 +160,7 @@ const PrivacyPolicy = () => {
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">2.6 Data Security Measures</h2>
           <p className="text-gray-300 mb-4">
-            Dhvani Cast implements appropriate technical and organizational safeguards to protect personal data, including:
+            DC Audio Rooms implements appropriate technical and organizational safeguards to protect personal data, including:
           </p>
           <ul className="list-disc pl-6 mb-6 text-gray-300 space-y-2">
             <li>Encryption of data in transit and at rest</li>
@@ -175,10 +175,10 @@ const PrivacyPolicy = () => {
           {/* 2.6.1 Network Integrity and VPN Restrictions */}
           <h3 className="text-xl font-semibold mt-6 mb-3">2.6.1 Network Integrity and VPN Restrictions</h3>
           <p className="text-gray-300 mb-4">
-            To maintain platform security, prevent misuse, and ensure compliance with safety and regulatory requirements, Dhvani Cast monitors network integrity indicators such as IP address consistency, device identifiers, and connection characteristics.
+            To maintain platform security, prevent misuse, and ensure compliance with safety and regulatory requirements, DC Audio Rooms monitors network integrity indicators such as IP address consistency, device identifiers, and connection characteristics.
           </p>
           <p className="text-gray-300 mb-4">
-            The use of Virtual Private Networks (VPNs), proxy services, or anonymization tools is not supported on the Dhvani Cast platform. Access attempts detected through VPNs or similar technologies may be restricted, limited, or blocked to protect platform integrity, prevent abuse, and ensure accurate enforcement of safety policies.
+            The use of Virtual Private Networks (VPNs), proxy services, or anonymization tools is not supported on the DC Audio Rooms platform. Access attempts detected through VPNs or similar technologies may be restricted, limited, or blocked to protect platform integrity, prevent abuse, and ensure accurate enforcement of safety policies.
           </p>
           <p className="text-gray-300 mb-4">
             Users are required to access the platform using a standard, non-anonymized internet connection. Continued attempts to bypass network restrictions may result in temporary or permanent account limitations.
@@ -213,7 +213,7 @@ const PrivacyPolicy = () => {
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">2.9 Data Sharing and Disclosure</h2>
           <p className="text-gray-300 mb-4">
-            Dhvani Cast does not sell personal data.
+            DC Audio Rooms does not sell personal data.
           </p>
           <p className="text-gray-300 mb-4">
             Data may be shared only:
@@ -229,7 +229,7 @@ const PrivacyPolicy = () => {
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">2.10 Legal Compliance</h2>
           <p className="text-gray-300 mb-4">
-            Dhvani Cast complies with:
+            DC Audio Rooms complies with:
           </p>
           <ul className="list-disc pl-6 mb-6 text-gray-300 space-y-2">
             <li>Digital Personal Data Protection Act, 2023</li>

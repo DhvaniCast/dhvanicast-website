@@ -5,7 +5,7 @@ import { Volume2, Headphones, Mic, Users, Shield, Zap } from 'lucide-react';
 const FeatureCard = ({ icon: Icon, title, description, delay }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
-  
+
   return (
     <motion.div
       ref={ref}
@@ -26,7 +26,7 @@ const FeatureCard = ({ icon: Icon, title, description, delay }) => {
 const Features = () => {
   const titleRef = useRef(null);
   const isInView = useInView(titleRef, { once: true, margin: "-100px" });
-  
+
   const features = [
     {
       icon: Volume2,
@@ -64,7 +64,7 @@ const Features = () => {
     <section id="features" className="section-padding bg-darker">
       <div className="container mx-auto px-4">
         <div ref={titleRef} className="text-center mb-16">
-          <motion.h2 
+          <motion.h2
             className="text-3xl md:text-4xl font-bold mb-4"
             initial={{ opacity: 0, y: 30 }}
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
@@ -72,20 +72,20 @@ const Features = () => {
           >
             <span className="text-primary">Features</span> That Make Us Special
           </motion.h2>
-          <motion.p 
+          <motion.p
             className="text-gray-400 max-w-2xl mx-auto"
             initial={{ opacity: 0, y: 30 }}
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            Dhvani Cast combines cutting-edge technology with intuitive design to deliver 
+            DC Audio Rooms combines cutting-edge technology with intuitive design to deliver
             an unparalleled communication experience.
           </motion.p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
-            <FeatureCard 
+            <FeatureCard
               key={index}
               icon={feature.icon}
               title={feature.title}

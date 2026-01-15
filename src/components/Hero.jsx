@@ -12,7 +12,7 @@ const Hero = () => {
       <section id="home" className="relative min-h-screen bg-darker py-20 flex items-center">
         {/* Green gradient background */}
         <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-primary/10 to-transparent z-0"></div>
-        
+
         {/* Content */}
         <div className="container mx-auto px-4 relative z-10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
@@ -26,15 +26,15 @@ const Hero = () => {
                 Easy & Immersive
               </h1>
               <p className="text-base text-gray-300 mb-6">
-                Experience the future of communication with Dhvani Cast -
+                Experience the future of communication with DC Audio Rooms -
                 <br />
                 seamlessly connect with crystal clear audio and immersive
                 <br />
                 features.
               </p>
-              
+
               <div className="flex flex-wrap gap-4">
-                <button 
+                <button
                   className="btn-primary"
                   onClick={() => setIsDownloadPopupOpen(true)}
                 >
@@ -45,7 +45,7 @@ const Hero = () => {
                 </button>
               </div>
             </div>
-            
+
             {/* Right side - 3D Earth */}
             <div className="w-full md:w-1/2 flex justify-center">
               <div className="relative flex items-center justify-center w-80 h-80 md:w-[28rem] md:h-[28rem]">
@@ -60,11 +60,11 @@ const Hero = () => {
           </div>
         </div>
       </section>
-      
+
       {/* Download Popup */}
-      <DownloadPopup 
-        isOpen={isDownloadPopupOpen} 
-        onClose={() => setIsDownloadPopupOpen(false)} 
+      <DownloadPopup
+        isOpen={isDownloadPopupOpen}
+        onClose={() => setIsDownloadPopupOpen(false)}
       />
     </>
   );

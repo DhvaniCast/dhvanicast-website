@@ -24,7 +24,7 @@ const PaymentPolicy = () => {
         </div>
         <h3 className="text-xl font-semibold mt-6 mb-3">8.1 Payment Processing, Pricing, and Disclosure</h3>
         <p className="text-gray-300 mb-4">
-          Dhvani Cast offers certain paid features, including private frequency access, which are processed exclusively through Razorpay, a regulated Indian payment gateway.
+          DC Audio Rooms offers certain paid features, including private frequency access, which are processed exclusively through Razorpay, a regulated Indian payment gateway.
         </p>
         <p className="text-gray-300 mb-4">Before any purchase is completed, users are clearly informed of:</p>
         <ul className="list-disc list-inside text-gray-300 space-y-2 ml-4">
@@ -33,13 +33,13 @@ const PaymentPolicy = () => {
           <li>Any applicable terms or limitations</li>
         </ul>
         <p className="text-gray-300 mt-4">
-          Charges are applied only after successful transaction confirmation from Razorpay. Dhvani Cast does not process payments directly and does not store sensitive payment credentials such as card numbers, CVV codes, or UPI identifiers.
+          Charges are applied only after successful transaction confirmation from Razorpay. DC Audio Rooms does not process payments directly and does not store sensitive payment credentials such as card numbers, CVV codes, or UPI identifiers.
         </p>
         <h3 className="text-xl font-semibold mt-6 mb-3">8.2 Fraud Detection and Risk Management</h3>
         <p className="text-gray-300 mb-4">
-          To protect users and the platform from financial misuse, Dhvani Cast monitors transactions for indicators of fraud, abuse, or unauthorized activity. This may include detecting unusual transaction patterns, repeated failed payment attempts, chargeback abuse, or violations of payment gateway policies.
+          To protect users and the platform from financial misuse, DC Audio Rooms monitors transactions for indicators of fraud, abuse, or unauthorized activity. This may include detecting unusual transaction patterns, repeated failed payment attempts, chargeback abuse, or violations of payment gateway policies.
         </p>
-        <p className="text-gray-300 mb-4">Where suspicious activity is detected, Dhvani Cast may:</p>
+        <p className="text-gray-300 mb-4">Where suspicious activity is detected, DC Audio Rooms may:</p>
         <ul className="list-disc list-inside text-gray-300 space-y-2 ml-4">
           <li>Temporarily block or cancel transactions</li>
           <li>Suspend or restrict associated accounts</li>
@@ -57,7 +57,7 @@ const PaymentPolicy = () => {
           <li>Maintaining the confidentiality of their payment credentials</li>
         </ul>
         <p className="text-gray-300 mt-4">
-          Dhvani Cast is not responsible for unauthorized transactions resulting from user negligence, compromised payment methods, or third-party access to user accounts.
+          DC Audio Rooms is not responsible for unauthorized transactions resulting from user negligence, compromised payment methods, or third-party access to user accounts.
         </p>
       </div>
     </div>

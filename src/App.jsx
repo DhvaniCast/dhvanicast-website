@@ -23,7 +23,7 @@ function App() {
       <Route path="/refund-policy" element={<RefundPolicy />} />
       <Route path="/terms-of-use" element={<TermsOfUse />} />
       <Route path="/child-safety" element={<ChildSafety />} />
-      
+
       <Route path="/FrequencyUsagePolicy" element={<FrequencyUsagePolicy />} />
       <Route path="/frequency-usage-policy" element={<FrequencyUsagePolicy />} />
       <Route path="/PlatformOperationsPolicy" element={<PlatformOperationsPolicy />} />
@@ -45,17 +45,17 @@ function App() {
               <div className="container mx-auto px-4">
                 <div className="max-w-4xl mx-auto text-center">
                   <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                    About <span className="text-primary">Dhvani Cast</span>
+                    About <span className="text-primary">DC Audio Rooms</span>
                   </h2>
                   <p className="text-gray-300 mb-8">
-                    Dhvani Cast was born from a simple idea: communication should be effortless,
+                    DC Audio Rooms was born from a simple idea: communication should be effortless,
                     immersive, and accessible to everyone. Our team of audio engineers and software
                     developers have worked tirelessly to create a platform that revolutionizes
                     how we connect with each other through sound.
                   </p>
                   <p className="text-gray-300">
                     Whether you're collaborating with colleagues across the globe, gaming with
-                    friends, or catching up with family, Dhvani Cast provides the crystal-clear,
+                    friends, or catching up with family, DC Audio Rooms provides the crystal-clear,
                     immersive audio experience you deserve. Join us in shaping the future of
                     communication.
                   </p>

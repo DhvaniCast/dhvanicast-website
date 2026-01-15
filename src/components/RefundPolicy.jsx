@@ -35,7 +35,7 @@ const RefundPolicy = () => {
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">9.1 Nature of Digital Services</h2>
           <p className="text-gray-300 mb-4">
-            Private frequencies offered on Dhvani Cast are time-bound, exclusive digital services. Once activated, these services are immediately consumed by reserving exclusive access to a specific frequency for a defined duration.
+            Private frequencies offered on DC Audio Rooms are time-bound, exclusive digital services. Once activated, these services are immediately consumed by reserving exclusive access to a specific frequency for a defined duration.
           </p>
           <p className="text-gray-300 mb-4">
             Due to the nature of these services, private frequencies:
@@ -52,7 +52,7 @@ const RefundPolicy = () => {
           </p>
           <ul className="list-disc pl-6 mb-6 text-gray-300 space-y-2">
             <li>Payment has been successfully completed, and</li>
-            <li>The purchased service is not delivered due to a verified technical failure attributable solely to Dhvani Cast</li>
+            <li>The purchased service is not delivered due to a verified technical failure attributable solely to DC Audio Rooms</li>
           </ul>
           <p className="text-gray-300 mb-4">
             Refunds are not issued for reasons including, but not limited to:
@@ -72,7 +72,7 @@ const RefundPolicy = () => {
             All refund requests are reviewed on a case-by-case basis. If approved, refunds are processed through the original payment method in accordance with Razorpay's processing timelines and applicable regulations.
           </p>
           <p className="text-gray-300 mb-4">
-            Dhvani Cast reserves the right to deny refund requests that do not meet the eligibility criteria or where misuse or abuse is identified.
+            DC Audio Rooms reserves the right to deny refund requests that do not meet the eligibility criteria or where misuse or abuse is identified.
           </p>
         </div>
       </div>
