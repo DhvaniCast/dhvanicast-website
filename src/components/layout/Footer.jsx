@@ -91,7 +91,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-12 pt-6 text-center">
           <p className="text-gray-400">
-            &copy; {currentYear} 2026 DC Audio Rooms. A product of Editevolv Software Private Limited All rights reserved.
+            &copy; {currentYear} DC Audio Rooms. A product of Editevolv Software Private Limited All rights reserved.
           </p>
         </div>
       </div>

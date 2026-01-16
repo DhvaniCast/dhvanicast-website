@@ -40,9 +40,9 @@ const Hero = () => {
                 >
                   Download Now
                 </button>
-                <button className="btn-outline">
+                {/* <button className="btn-outline">
                   Learn More
-                </button>
+                </button> */}
               </div>
             </div>
 
