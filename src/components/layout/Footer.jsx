@@ -1,5 +1,6 @@
-import { Volume2, Github, Twitter, Instagram, Linkedin } from 'lucide-react';
+import { Github, Twitter, Instagram, Linkedin } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import logo from '../../assets/logo.png';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -15,9 +16,9 @@ const Footer = () => {
           {/* Brand */}
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center mb-4">
-              <Volume2 className="text-primary mr-2" size={24} />
-              <h2 className="text-xl font-bold text-white">
-                <span className="text-primary">DC Audio</span> Rooms
+              <img src={logo} alt="DhvaniCast Logo" className="h-12" />
+              <h2 className="text-xl font-bold text-white -ml-3">
+                <span className="text-primary">Audio</span> Rooms
               </h2>
             </div>
             <p className="text-gray-400 mb-4">
@@ -90,7 +91,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-12 pt-6 text-center">
           <p className="text-gray-400">
-            &copy; {currentYear} All rights reserved to Editevolv Software Private Limited.
+            &copy; {currentYear} 2026 DC Audio Rooms. A product of Editevolv Software Private Limited All rights reserved.
           </p>
         </div>
       </div>

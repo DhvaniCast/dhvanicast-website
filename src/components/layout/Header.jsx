@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, Volume2 } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import DownloadPopup from '../DownloadPopup';
+import logo from '../../assets/logo.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -30,9 +31,9 @@ const Header = () => {
       >
         <div className="container mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center">
-            <Volume2 className="text-primary mr-2" size={28} />
-            <h1 className="text-2xl font-bold text-white">
-              <span className="text-primary">DC Audio</span> Rooms
+            <img src={logo} alt="DhvaniCast Logo" className="h-16" />
+            <h1 className="text-2xl font-bold text-white -ml-4">
+              <span className="text-primary">Audio</span> Rooms
             </h1>
           </div>
 

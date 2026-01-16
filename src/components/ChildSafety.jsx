@@ -33,11 +33,11 @@ const ChildSafety = () => {
                         <div className="space-y-2">
                             <p className="text-gray-300">
                                 <Mail className="inline mr-2" size={16} />
-                                <strong>Child Safety & CSAE Reporting:</strong> <a href="mailto:csae@dhvanicast.com" className="text-primary hover:text-primary-light">csae@dhvanicast.com</a>
+                                <strong>Child Safety & CSAE Reporting:</strong> <a href="mailto:csae@dcaudiorooms.com" className="text-primary hover:text-primary-light">csae@dcaudiorooms.com</a>
                             </p>
                             <p className="text-gray-300">
                                 <Mail className="inline mr-2" size={16} />
-                                <strong>General Support & Enquiries:</strong> <a href="mailto:support@dhvanicast.com" className="text-primary hover:text-primary-light">support@dhvanicast.com</a>
+                                <strong>General Support & Enquiries:</strong> <a href="mailto:Support@dcaudiorooms.com" className="text-primary hover:text-primary-light">Support@dcaudiorooms.com</a>
                             </p>
                         </div>
                     </div>
@@ -150,7 +150,7 @@ const ChildSafety = () => {
                         <ul className="list-disc list-inside text-gray-300 space-y-2 ml-4">
                             <li>Navigating to <strong>Settings → Help & support → Report CSAE</strong></li>
                             <li>Reporting a specific user, chat message, image, or frequency</li>
-                            <li>Submitting a report via email to <a href="mailto:csae@dhvanicast.com" className="text-primary hover:text-primary-light">csae@dhvanicast.com</a></li>
+                            <li>Submitting a report via email to <a href="mailto:csae@dcaudiorooms.com" className="text-primary hover:text-primary-light">csae@dcaudiorooms.com</a></li>
                         </ul>
                         <p className="text-gray-300 mt-4">The reporting process is:</p>
                         <ul className="list-disc list-inside text-gray-300 space-y-2 ml-4">
@@ -255,7 +255,7 @@ const ChildSafety = () => {
                         <div className="bg-primary/10 border border-primary rounded-lg p-4 my-4">
                             <p className="text-gray-300 flex items-center">
                                 <Mail className="mr-2 text-primary" size={20} />
-                                <strong>Email:</strong> <a href="mailto:csae@dhvanicast.com" className="text-primary hover:text-primary-light ml-2">csae@dhvanicast.com</a>
+                                <strong>Email:</strong> <a href="mailto:csae@dcaudiorooms.com" className="text-primary hover:text-primary-light ml-2">csae@dcaudiorooms.com</a>
                             </p>
                         </div>
                         <p className="text-gray-300 mb-4">This contact:</p>

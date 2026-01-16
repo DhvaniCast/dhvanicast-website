@@ -28,10 +28,10 @@ const CommunityGuidelines = () => {
                     <div className="bg-primary/10 border border-primary rounded-lg p-6 mb-8">
                         <h3 className="text-xl font-semibold text-primary mb-3">Official Contact Emails</h3>
                         <p className="text-gray-300 mb-2">
-                            <strong>General Support & Enquiries:</strong> <a href="mailto:support@dhvanicast.com" className="text-primary hover:text-primary-light">support@dhvanicast.com</a>
+                            <strong>General Support & Enquiries:</strong> <a href="mailto:Support@dcaudiorooms.com" className="text-primary hover:text-primary-light">Support@dcaudiorooms.com</a>
                         </p>
                         <p className="text-gray-300">
-                            <strong>Child Safety & CSAE Reporting:</strong> <a href="mailto:csae@dhvanicast.com" className="text-primary hover:text-primary-light">csae@dhvanicast.com</a>
+                            <strong>Child Safety & CSAE Reporting:</strong> <a href="mailto:csae@dcaudiorooms.com" className="text-primary hover:text-primary-light">csae@dcaudiorooms.com</a>
                         </p>
                     </div>
 

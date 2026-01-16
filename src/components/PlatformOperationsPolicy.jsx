@@ -17,8 +17,8 @@ const PlatformOperationsPolicy = () => {
         <div className="bg-primary/10 border border-primary rounded-lg p-6 mb-8">
           <h3 className="text-xl font-semibold text-primary mb-3">Official Contact Emails</h3>
           <ul className="list-none space-y-2 text-gray-300">
-            <li><strong>General Support & Enquiries:</strong> <a href="mailto:support@dhvanicast.com" className="text-primary hover:text-primary-light">support@dhvanicast.com</a></li>
-            <li><strong>Child Safety & CSAE Reporting:</strong> <a href="mailto:csae@dhvanicast.com" className="text-primary hover:text-primary-light">csae@dhvanicast.com</a></li>
+            <li><strong>General Support & Enquiries:</strong> <a href="mailto:Support@dcaudiorooms.com" className="text-primary hover:text-primary-light">Support@dcaudiorooms.com</a></li>
+            <li><strong>Child Safety & CSAE Reporting:</strong> <a href="mailto:csae@dcaudiorooms.com" className="text-primary hover:text-primary-light">csae@dcaudiorooms.com</a></li>
           </ul>
         </div>
         <h3 className="text-xl font-semibold mt-6 mb-3">5.1 Operational Monitoring</h3>
